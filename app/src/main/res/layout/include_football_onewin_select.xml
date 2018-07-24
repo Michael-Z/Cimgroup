@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/layout_bg_color"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/layout_bg_color"
+        android:orientation="horizontal" >
+        
+        <RelativeLayout
+            android:id="@+id/layoutView_footballlottery_onewin_spf_stop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/border_color"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="0.5dp"
+                android:layout_marginRight="0.5dp"
+                android:gravity="center"
+                android:textColor="@color/color_gray_secondary"
+                android:text="未开售" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/linearView_footballlottery_onewin_spf_0"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0.5dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_bg_footballlottery_spf_item_center"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:text="@string/victory"
+                android:textColor="@color/selector_bg_footballlottery_sfc"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView_football_item_zhu_s"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="3dp"
+                android:textColor="@drawable/selector_text_color_gray_white"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearView_footballlottery_onewin_spf_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0.5dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_bg_footballlottery_spf_item_center"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:text="@string/draw"
+                android:textColor="@color/selector_bg_footballlottery_sfc"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView_football_item_zhu_p"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="3dp"
+                android:textColor="@drawable/selector_text_color_gray_white"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearView_footballlottery_onewin_spf_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0.5dp"
+            android:layout_marginRight="0.5dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_bg_footballlottery_spf_item_center"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:text="@string/negative"
+                android:textColor="@color/selector_bg_footballlottery_sfc"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView_football_item_zhu_f"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="3dp"
+                android:textColor="@drawable/selector_text_color_gray_white"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_select_dan_layout"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:background="@color/layout_bg_color"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtView_oldfootball_item_select"
+                android:layout_width="40dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/selector_football_dan"
+                android:gravity="center"
+                android:text="胆"
+                
+                android:textColor="@drawable/selector_football_dan_textcolor"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

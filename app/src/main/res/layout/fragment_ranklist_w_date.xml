@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <!-- 这里的宽高对应最终显示的listview的宽高 如果写死 那么如果显示的东西过长 会被截取 -->
+
+    <ListView
+        android:id="@+id/lv_date_list"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_shape_white_with__green_borders"
+        android:layout_gravity="center_horizontal" 
+        android:dividerHeight="0.5dp"
+		android:scrollbars="none"
+		android:divider="@color/layout_bg_color"
+        >
+    </ListView>
+
+</LinearLayout>

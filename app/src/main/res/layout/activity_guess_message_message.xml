@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/black" >
+
+        <RelativeLayout
+            android:id="@+id/id_back"
+            android:layout_width="50dp"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/icon_back" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="留言板"
+            android:textColor="@color/color_white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <cn.com.cimgroup.view.AutoListView
+        android:id="@+id/id_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:divider="@android:color/transparent"
+        >
+    </cn.com.cimgroup.view.AutoListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_tab_bg"
+        android:gravity="center"
+        android:minHeight="45dp"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" >
+
+        <EditText
+            android:id="@+id/id_send_context"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_weight="1"
+            android:background="#b6b6b6"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center_vertical|left"
+            android:hint="说点什么吧"
+            android:minHeight="25dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/color_gray_secondary"
+            android:paddingTop="5dp"
+            android:textColorHint="#6B6B6B"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/id_send"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/selector_bg_common_green_bg_r3"
+            android:gravity="center"
+            android:text="发布"
+            android:textColor="@color/color_white"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

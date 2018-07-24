@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/tangzhihui/.gradle/wrapper/dists/gradle-4.1-all/wrapper/caches/modules-2/files-2.1/com.qiniu/qiniu-android-sdk/7.3.11/96211a52922e1b9f5647aee6fc8bf4cce8251958/qiniu-android-sdk-7.3.11.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="96211a52922e1b9f5647aee6fc8bf4cce8251958">
+        <dex dex="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/build/intermediates/pre-dexed/debug/qiniu-android-sdk-7.3.11_95a14fe9b355041b3dc5074a8895032c9eea3248.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/libs/mta-sdk-1.6.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c184c69f43b1fe46390f7123717c65bd844bccb6">
+        <dex dex="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/build/intermediates/pre-dexed/debug/mta-sdk-1.6.2_5fd4b0287385c922ed40800b113ef2928bdb33fd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tangzhihui/.gradle/wrapper/dists/gradle-4.1-all/wrapper/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/build/intermediates/pre-dexed/debug/gson-2.8.0_471037ce215935ec1757ed3e357f6026cd51f99e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
+        <dex dex="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.2.1_64bdc15c5f4cf78feb6fc1ef09216f31cd26e4ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/libs/umpay_sdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0cb6b1835affb551e65d97a1cef458249a9dbeb7">
+        <dex dex="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/build/intermediates/pre-dexed/debug/umpay_sdk_812107e5a43fdc8e8e0178d7160d8ad6bb0f57bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/libs/universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.3_23155e1198f6d28903aa26ebb578463c69607c9b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tangzhihui/.gradle/wrapper/dists/gradle-4.1-all/wrapper/caches/modules-2/files-2.1/com.tencent.mm.opensdk/wechat-sdk-android-with-mta/1.0.2/d52a3b82b9efa2b247d9496c5b5bbc8ca1f93eab/wechat-sdk-android-with-mta-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d52a3b82b9efa2b247d9496c5b5bbc8ca1f93eab">
+        <dex dex="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/build/intermediates/pre-dexed/debug/wechat-sdk-android-with-mta-1.0.2_1e547ce360942ea6a3a1bdc647513f8987862920.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tangzhihui/.gradle/wrapper/dists/gradle-4.1-all/wrapper/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_ed89dcfd0ecff74f9009abee695cd282af8fa7f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tangzhihui/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.1_59874002b377fc45d830e36ad2a72beaf9371192.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.1_4f0b9b2961ae6e1875886b0578d0563d473a7d1a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/libs/alipaySdk-20151112.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5ce758768906f045b279735e7cefc0b89160d9d6">
+        <dex dex="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/build/intermediates/pre-dexed/debug/alipaySdk-20151112_82ad24a4c094d256b6347c3e3d552e5f5cd0ccd3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/build/intermediates/exploded-aar/com.android.support/design/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="72961d8b453b46e277702f18de9d210bc019e36e">
+        <dex dex="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.2.1_0ea41c25d54c6fba6c4ade87199f82351d64d9b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.1_2125c6e72a8b22bd0dc2527998cf47b6453705ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tangzhihui/.gradle/wrapper/dists/gradle-4.1-all/wrapper/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.1/f5aa318bda4c6c8d688c9d00b90681dcd82ce636/httpcore-4.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f5aa318bda4c6c8d688c9d00b90681dcd82ce636">
+        <dex dex="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/build/intermediates/pre-dexed/debug/httpcore-4.4.1_1745ec3628dbf3da122bcf996673d53ef37cb711.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/libs/commons-io-2.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7ffdb02f95af1c1a208544e076cea5b8e66e731a">
+        <dex dex="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/build/intermediates/pre-dexed/debug/commons-io-2.0.1_7d318d5c02244563371d101e5a4120ca28682198.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/libs/jcore-android_v1.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c49fbb60c08a0d71decd2f092da4677fb7872f04">
+        <dex dex="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/build/intermediates/pre-dexed/debug/jcore-android_v1.1.0_831fe3f98ce29746945c42a69d3a55132de208c4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tangzhihui/.gradle/wrapper/dists/gradle-4.1-all/wrapper/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/build/intermediates/pre-dexed/debug/okio-1.13.0_97f8034816db2de22931913f161e9175b7299e89.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.1_4d69e00553bdb3fa2ccb67bc8db6c3c01e6ad20d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/libs/async-http.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="bb2bd6658462e9631f0729df70bf792d2eefd775">
+        <dex dex="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/build/intermediates/pre-dexed/debug/async-http_30a5121a38cd524fa18d2e05fbceb59e5c757260.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tangzhihui/.gradle/wrapper/dists/gradle-4.1-all/wrapper/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.8.1/4d060ca3190df0eda4dc13415532a12e15ca5f11/okhttp-3.8.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4d060ca3190df0eda4dc13415532a12e15ca5f11">
+        <dex dex="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/build/intermediates/pre-dexed/debug/okhttp-3.8.1_ec6acfc16b842358e8bab6c8fe7dbe43b18b886d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.1_ed8d420f67ff05e3bfdc87045acf809fbd360cc9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/libs/umeng-analytics-v6.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8023cd0713d5cd5bd212b0b6053fec03d133f9d1">
+        <dex dex="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/build/intermediates/pre-dexed/debug/umeng-analytics-v6.0.0_0763c37b67225dad336d826c141e5ad834616726.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tangzhihui/.gradle/wrapper/dists/gradle-4.1-all/wrapper/caches/modules-2/files-2.1/com.alibaba/fastjson/1.2.21/4dc148b3edc0d58c1bdb9e4835c187c488986e05/fastjson-1.2.21.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4dc148b3edc0d58c1bdb9e4835c187c488986e05">
+        <dex dex="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/build/intermediates/pre-dexed/debug/fastjson-1.2.21_904e93d49064e85b0726f6d7a33fa441da295f6e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/libs/payecoplugin.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a73fe2298571150af204b888b828ce3531fd27b9">
+        <dex dex="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/build/intermediates/pre-dexed/debug/payecoplugin_9dbb5219942e99e314e6d14b9234f8df2efbc768.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/libs/jpush-android_v3.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8e0e2966df7e5f6062849be632a5c7d62d3a38fa">
+        <dex dex="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/build/intermediates/pre-dexed/debug/jpush-android_v3.0.1_b058a140198a796c821a5912a94903088fbd7913.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/libs/weiboSDKCore_3.1.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a07a8f8a38f8c3a434b93102bff0e563377ad273">
+        <dex dex="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/build/intermediates/pre-dexed/debug/weiboSDKCore_3.1.4_79555e4a7a6ec9a8028a5adde4ebad862c380435.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/build/intermediates/exploded-aar/Cimgroup/library/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="bb280ef1fa3cb2df9440885c8cda41bdf3bae7ab">
+        <dex dex="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/build/intermediates/pre-dexed/debug/Cimgroup-library-unspecified_e7a2c1f2181a59b94a31b40671d5017da9902cbc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/libs/open_sdk_r5756.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7f7bf100e53d9099032f113728725e1843e1fbe2">
+        <dex dex="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/build/intermediates/pre-dexed/debug/open_sdk_r5756_399ba5b6ae6e045108682a50761f5bf3df1e0c75.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/libs/locSDK_4.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="41b93335a2753c93f8b8f56741615cb81ea72437">
+        <dex dex="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/build/intermediates/pre-dexed/debug/locSDK_4.2_2d3ff795e3d4aeec87d6a865040661ee98a2fae1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.1_c7d00364d82a528a382fecfd0b8dbfe1f23167f3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tangzhihui/.gradle/wrapper/dists/gradle-4.1-all/wrapper/caches/modules-2/files-2.1/com.qiniu/happy-dns/0.2.13/a5a0b671cfa34710b904121fe8cb880c1b4b106c/happy-dns-0.2.13.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a5a0b671cfa34710b904121fe8cb880c1b4b106c">
+        <dex dex="/Users/tangzhihui/Desktop/com_project/Cimgroup/app/build/intermediates/pre-dexed/debug/happy-dns-0.2.13_7557c11caf0e6abf36f27665864691617a297810.jar" />
+    </item>
+
+</items>

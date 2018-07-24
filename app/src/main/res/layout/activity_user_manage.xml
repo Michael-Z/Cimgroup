@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hall_background"
+    android:orientation="vertical" >
+
+    <include layout="@layout/include_title0" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg_shape_white_no_border"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="1dp" >
+
+            <TextView
+                android:id="@+id/textView_usermanage_username_text"
+                style="@style/lotteryhall_text_gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/usermanage_username"
+                android:textColor="@color/color_gray_indicator" />
+
+            <TextView
+                android:id="@+id/textView_usermanage_username"
+                style="@style/lotteryhall_text_gray"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/textView_usermanage_username_text"
+                android:background="@color/color_white"
+                android:gravity="center_vertical" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/layout_bg_color"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp" >
+
+            <TextView
+                android:id="@+id/textView_usermanage_phone_text"
+                style="@style/lotteryhall_text_gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/usermanage_phone"
+                android:textColor="@color/color_gray_indicator" />
+
+            <TextView
+                android:id="@+id/textView_usermanage_phone"
+                style="@style/lotteryhall_text_gray"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/textView_usermanage_phone_text"
+                android:background="@color/color_white"
+                android:gravity="center_vertical" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/layout_bg_color"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="1dp" >
+
+            <TextView
+                android:id="@+id/textView_usermanage_money_text"
+                style="@style/lotteryhall_text_gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/usermanage_money"
+                android:textColor="@color/color_gray_indicator" />
+
+            <TextView
+                android:id="@+id/textView_usermanage_money"
+                style="@style/lotteryhall_text_gray"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/textView_usermanage_money_text"
+                android:background="@color/color_white"
+                android:gravity="center_vertical"
+                android:textColor="@color/color_red" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_shape_white_no_border_nopadding"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="1dp" >
+
+            <TextView
+                android:id="@+id/textView_usermanage_realname_text"
+                style="@style/lotteryhall_text_gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/usermanage_realname"
+                android:textColor="@color/color_gray_indicator" />
+
+            <EditText
+                android:id="@+id/editView_usermanage_realname"
+                style="@style/lotteryhall_text_gray"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/textView_usermanage_realname_text"
+                android:background="@color/color_white"
+                android:gravity="center_vertical"
+                android:hint="@string/usermanage_text"
+                android:singleLine="true" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/layout_bg_color"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp" >
+
+            <TextView
+                android:id="@+id/textView_usermanage_realnum_text"
+                style="@style/lotteryhall_text_gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/usermanage_idcard"
+                android:textColor="@color/color_gray_indicator" />
+
+            <EditText
+                android:id="@+id/editView_usermanage_realnum"
+                style="@style/lotteryhall_text_gray"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/textView_usermanage_realnum_text"
+                android:background="@color/color_white"
+                android:gravity="center_vertical"
+                android:hint="@string/usermanage_text"
+                android:maxLength="19"
+                android:singleLine="true" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/layout_bg_color"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textView_usermanage_cardnum_text"
+                style="@style/lotteryhall_text_gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/usermanage_banknum"
+                android:textColor="@color/color_gray_indicator" />
+
+            <TextView
+                android:id="@+id/editText_usermanage_cardnum"
+                style="@style/lotteryhall_text_gray"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/textView_usermanage_bindbank"
+                android:layout_toRightOf="@+id/textView_usermanage_cardnum_text"
+                android:background="@color/color_white"
+                android:gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/textView_usermanage_bindbank"
+                style="@style/lotteryhall_text_gray"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@color/color_red"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/usermanage_bindbank"
+                android:textColor="@color/color_white" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView_usermanage_submit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/selector_bg_common"
+        android:gravity="center"
+        android:text="@string/getbackpwd_submit"
+        android:textColor="@color/color_white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView_usermanage_explain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/color_gray_indicator" />
+
+    <TextView
+        android:id="@+id/textView_usermanage_explain1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/color_gray_indicator" />
+
+</LinearLayout>

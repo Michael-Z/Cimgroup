@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/layout_bg_color"
+	android:orientation="vertical" >
+	
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="50dp"
+	    android:background="@color/color_black" >
+	    
+	    <TextView android:id="@+id/textView_html_back"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dip"
+	        android:layout_centerVertical="true"
+	        android:drawableLeft="@drawable/icon_back"
+	        android:textColor="@color/color_white"
+	        android:text="@string/btn_back"
+	        android:textSize="16sp"
+	        android:clickable="true"
+	        android:onClick="onClick"/>
+	
+	    <TextView
+	        android:id="@+id/textView_html_word"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:gravity="center"
+	        android:layout_centerInParent="true"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="@color/color_white" />
+	
+	    <ImageView
+	        android:id="@+id/imageView_html_share"
+	        android:layout_width="wrap_content"
+	        android:layout_height="fill_parent"
+	        android:layout_marginRight="10dp"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:src="@drawable/e_ui_shape"
+	        android:clickable="true"
+	        android:onClick="onClick"
+	        android:visibility="gone" />
+	    
+	</RelativeLayout>
+	
+	<include android:id="@+id/html_common_emptyView"
+	    layout="@layout/layout_loading_empty"
+	    android:visibility="gone" />
+	
+	<WebView
+		android:id="@+id/webView_feature_common"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:scrollbars="none" />
+	
+	
+</LinearLayout>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cvpager="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layout_bg_color" >
+
+    <RelativeLayout
+        android:id="@+id/layout_oldfootball_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/color_black" >
+
+        <TextView
+            android:id="@+id/layoutView_title_left1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:drawableLeft="@drawable/icon_back"
+            android:gravity="center_vertical"
+            android:scaleType="center"
+            android:text="@string/btn_back"
+            android:textColor="@color/color_white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView_lotterybid_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical|right"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/color_white" />
+        <!-- android:drawablePadding="3dp"
+            android:drawableRight="@drawable/icon_tz_pull"
+             -->
+
+        <ImageView
+            android:id="@+id/imgView_lotterybid_select"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/imgView_footballbid_more"
+            android:src="@drawable/btn_common_select"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@id/imgView_footballbid_more"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:visibility="gone" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/icon_top_menu" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <cn.com.cimgroup.view.ViewPagerIndicator
+        android:id="@+id/cvView_oldfootball_pagerSliding"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/layout_oldfootball_title"
+        android:background="@color/layout_bg_color"
+        android:orientation="horizontal"
+        cvpager:item_count="2"
+        cvpager:line_color="@color/color_red" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/v4View_oldfootball_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/layout_oldfootball_bottom1"
+        android:layout_below="@id/cvView_oldfootball_pagerSliding" />
+
+    <LinearLayout
+        android:id="@+id/layout_oldfootball_bottom1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/layout_oldfootball_divider1"
+        android:baselineAligned="false"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/icon_football_cart_bg"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1.5"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cart_add_tou"
+                    android:textColor="@color/color_gray_secondary"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/bg_tz_bei"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/textView_tb_sub"
+                        android:layout_width="30dp"
+                        android:layout_height="fill_parent"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:onClick="onClick" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/icon_recharge_reduce" />
+                    </LinearLayout>
+
+                    <View
+                        style="@style/style_gray_vertical_line"
+                        android:background="@color/color_black" />
+
+                    <EditText
+                        android:id="@+id/editText_tb"
+                        android:layout_width="50dp"
+                        android:layout_height="fill_parent"
+                        android:layout_margin="1dp"
+                        android:background="@color/color_white"
+                        android:gravity="center"
+                        android:hint="1"
+                        android:inputType="number"
+                        android:digits="0123456789"
+                        android:maxLength="4"
+                        android:text="1"
+                        android:textColor="@color/color_gray_secondary" />
+
+                    <View
+                        style="@style/style_gray_vertical_line"
+                        android:background="@color/color_black" />
+
+                    <LinearLayout
+                        android:id="@+id/textView_tb_add"
+                        android:layout_width="30dp"
+                        android:layout_height="fill_parent"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:onClick="onClick" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/icon_recharge_add" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cart_add_bei"
+                    android:textColor="@color/color_gray_secondary"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/oldfootball_most_bei"
+                android:textColor="@color/color_gray_secondary"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/layout_oldfootball_divider1"
+        style="@style/divider_horizontal"
+        android:layout_above="@+id/layout_oldfootball_bottom" />
+
+    <RelativeLayout
+        android:id="@+id/layout_oldfootball_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/color_tab_bg" >
+
+        <TextView
+            android:id="@+id/imgView_lotterybid_trash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:drawableTop="@drawable/icon_trash_all"
+            android:scaleType="center"
+            android:text="@string/btn_clear"
+            android:textColor="@color/hall_yellow"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/layout_oldfootball_buy_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/selector_bg_bottom_tz"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/cart_buy_tv"
+            android:textColor="@color/hall_yellow"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@id/lottery_cart_buy_tv"
+            android:layout_toRightOf="@id/lottery_cart_hemai_tv"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView_oldfootball_num_mult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_white"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textView_oldfootball_term_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lottery_please_select"
+                android:textColor="@color/color_white" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/pop_common_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="45dip"
+        android:background="@color/gray_transparent"
+        android:orientation="vertical"
+        android:visibility="gone" />
+
+</RelativeLayout>

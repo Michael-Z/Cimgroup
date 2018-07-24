@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/choose_title_choose_bg"
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/textView_pl3_zx"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/selector_border_red_gray"
+                android:gravity="center"
+                android:text="@string/lottery_p3_pop_zx"
+                android:textColor="@color/color_gray_secondary" />
+
+            <ImageView
+                android:id="@+id/imageView_pl3_zx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/icon_hall_linear_select" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/textView_pl3_z3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/selector_border_red_gray"
+                android:gravity="center"
+                android:text="@string/lottery_p3_pop_z3"
+                android:textColor="@color/color_gray_secondary" />
+
+            <ImageView
+                android:id="@+id/imageView_pl3_z3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/icon_hall_linear_select" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/textView_pl3_z6"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/selector_border_red_gray"
+                android:gravity="center"
+                android:text="@string/lottery_p3_pop_z6"
+                android:textColor="@color/color_gray_secondary" />
+
+            <ImageView
+                android:id="@+id/imageView_pl3_z6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/icon_hall_linear_select" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/textView_pl3_zhixhz"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/selector_border_red_gray"
+                android:gravity="center"
+                android:text="@string/lottery_p3_zxhz"
+                android:textColor="@color/color_gray_secondary" />
+
+            <ImageView
+                android:id="@+id/imageView_pl3_zhixhz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/icon_hall_linear_select" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/textView_pl3_zxhz"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/selector_border_red_gray"
+                android:gravity="center"
+                android:text="@string/lottery_p3_pop_zxhz"
+                android:textColor="@color/color_gray_secondary" />
+
+            <ImageView
+                android:id="@+id/imageView_pl3_zxhz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/icon_hall_linear_select" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

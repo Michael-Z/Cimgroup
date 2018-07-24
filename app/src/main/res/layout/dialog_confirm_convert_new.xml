@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/selector_bg_center_textview"
+    android:padding="15dp" >
+
+    <LinearLayout
+        android:id="@+id/layout_convert_shuoming"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView_convert_money"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="13000乐米"
+            android:textColor="@color/color_gray_secondary"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/e_ui_next_icon" />
+
+        <TextView
+            android:id="@+id/textView_convert_duihuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="10元购物券"
+            android:textColor="@color/color_gray_secondary"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/layout_convert_shuoming"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:text="是否确认兑换?"
+        android:textColor="@color/color_gray_secondary" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_content"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:id="@+id/cancel"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_bg_center_textview"
+            android:gravity="center"
+            android:text="取消"
+            android:textSize="16sp"
+            android:textColor="@color/color_gray_secondary" />
+
+        <TextView
+            android:id="@+id/comfirm"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_bg_red_center_textview"
+            android:gravity="center"
+            android:text="确定"
+            android:textSize="16sp"
+            android:textColor="@color/color_white" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item type="id" name="gridview" />
+    <item type="id" name="webview" />
+    <item type="id" name="scrollview" />
+    <item type="id" name="btnView_football_match_clear_selectindex"/>
+
+    <item name="swipe_menu_content_view_id" type="id" />
+    <item name="swipe_menu_view_id" type="id" />
+</resources>

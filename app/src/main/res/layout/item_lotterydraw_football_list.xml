@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView_lotterydraw_football_item_num"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/color_gray_secondary"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView_lotterydraw_football_item_matchName"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/color_gray_secondary"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <View style="@style/style_gray_vertical_line" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView_lotterydraw_football_item_zhu"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/color_gray_secondary" />
+
+            <TextView
+                android:id="@+id/textView_lotterydraw_football_item_rang"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/color_gray_secondary" />
+        </LinearLayout>
+
+        <View style="@style/style_gray_vertical_line" />
+
+        <LinearLayout
+            android:id="@+id/layout_lotterydraw_football_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView_lotterydraw_football_item_result"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/color_white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView_lotterydraw_football_item_bifen"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/color_white"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <View style="@style/style_gray_vertical_line" />
+
+        <TextView
+            android:id="@+id/textView_lotterydraw_football_item_ke"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/color_gray_secondary" />
+    </LinearLayout>
+
+    <View style="@style/style_gray_horizontal_line" />
+
+</LinearLayout>

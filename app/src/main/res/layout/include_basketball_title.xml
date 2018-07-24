@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/color_black" >
+
+    <TextView
+        android:id="@+id/tv_basketball_back"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="4dp"
+        android:drawableLeft="@drawable/icon_back"
+        android:gravity="center"
+        android:text="@string/btn_back"
+        android:textColor="@color/color_white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_basketball_select"
+        android:layout_width="wrap_content"
+        android:padding="3dp"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:drawableRight="@drawable/icon_tz_pull"
+        android:gravity="center_vertical|right"
+        android:textColor="@color/color_white"
+        android:textSize="18sp" 
+        android:text="胜负"
+        />
+    
+    <ImageView
+        android:id="@+id/iv_basket_lottertbid"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/iv_basket_more"
+        android:src="@drawable/btn_common_select"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_basket_more"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/calendar"
+        android:visibility="gone" />
+
+</RelativeLayout>

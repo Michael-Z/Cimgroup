@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_bg_center_textview"
+    android:orientation="vertical"
+    android:padding="15dp" >
+
+    <LinearLayout
+        android:id="@+id/layout_convert_shuoming"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView_convert_money"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="5000乐米"
+            android:textColor="@color/color_gray_secondary"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/e_ui_next_icon" />
+
+        <TextView
+            android:id="@+id/textView_convert_duihuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="5元话费"
+            android:textColor="@color/color_gray_secondary"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_convert_phone"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/layout_convert_shuoming"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingRight="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            android:text="手机号："
+            android:textColor="@color/color_gray_secondary" />
+
+        <EditText
+            android:id="@+id/editView_convert_phone"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_bg_color_no_border"
+            android:digits="0123456789"
+            android:hint="请输入手机号码"
+            android:inputType="number"
+            android:maxLength="11"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:textColor="@color/color_gray_indicator"
+            android:textColorHint="@color/color_gray_indicator"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/id_view_line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/layout_convert_phone"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/layout_bg_color" />
+
+    <TextView
+        android:id="@+id/textView_shuoming"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_view_line"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="注:  兑换成功后不可修改，请确认手机号"
+        android:textColor="@color/color_gray_indicator"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_shuoming"
+        android:layout_marginTop="15dp" >
+
+        <TextView
+            android:id="@+id/cancel"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_bg_center_textview"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/color_gray_secondary" />
+
+        <TextView
+            android:id="@+id/comfirm"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_bg_red_center_textview"
+            android:gravity="center"
+            android:text="确定"
+            android:textColor="@color/color_white" />
+    </LinearLayout>
+
+</RelativeLayout>

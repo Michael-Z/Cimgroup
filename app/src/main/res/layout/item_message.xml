@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/message_without_detail"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:padding="5dp" >
+
+        <ImageView
+            android:id="@+id/message_state"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/horn_red" />
+
+        <LinearLayout
+            android:id="@+id/center_layout"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_toRightOf="@id/message_state" 
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/message_des"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:text="这是测试文本" 
+                    android:textColor="@color/color_gray_secondary"
+                    android:layout_marginTop="5dp"
+                    android:singleLine="true"
+                    android:textSize="14sp"
+                    />
+
+                <TextView
+                    android:id="@+id/message_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="2016-7-8 17:05"
+                    android:textColor="@color/color_gray_indicator"
+                    android:layout_marginRight="10dp"
+                    android:textSize="13sp" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/message_explain"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/color_gray_indicator"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textSize="13sp" />
+                
+                <ImageView 
+                    android:id="@+id/message_arrow"
+                    android:layout_height="14dp"
+                    android:layout_width="14dp"
+                    android:src="@drawable/icon_center_right_pull"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="40dp"
+                    />
+            </LinearLayout>
+            
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/message_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_gray_line"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+       	android:paddingLeft="10dp"
+       	android:paddingRight="10dp"
+       	android:textColor="@color/color_gray_secondary"
+       	android:lineSpacingExtra="4dp"
+        android:clickable="false"
+        android:visibility="gone"
+        />
+
+</LinearLayout>

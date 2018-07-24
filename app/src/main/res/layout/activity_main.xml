@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/hall_background" >
+
+    <!-- <cn.com.cimgroup.BaseFramentTabHost
+        android:id="@android:id/tabhost"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:background="@color/color_tab_bg" >
+        
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0" />
+    </cn.com.cimgroup.BaseFramentTabHost> -->
+    
+    <RadioGroup
+        android:id="@+id/tab_rg_menu"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@color/color_white"
+        android:layout_gravity="bottom"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/tab_rb_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:button="@null"
+            android:checked="true"
+            android:drawableTop="@drawable/selector_btn_tab_index0"
+            android:gravity="center"
+            android:text="@string/frament_tab_index0"
+            android:textColor="@drawable/selector_text_tab"
+            android:textSize="12sp" />
+
+         <RadioButton
+            android:id="@+id/tab_rb_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_btn_tab_index1"
+            android:gravity="center"
+            android:text="@string/frament_tab_index1"
+            android:textColor="@drawable/selector_text_tab"
+            android:textSize="12sp" /> 
+            
+         <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:drawableTop="@drawable/selector_btn_tab_index1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/lotteryhall_game"
+            android:textColor="@drawable/selector_text_tab"
+            android:textSize="12sp" /> 
+
+        <RadioButton
+            android:id="@+id/tab_rb_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_btn_tab_index2"
+            android:gravity="center"
+            android:text="@string/frament_tab_index2"
+            android:textColor="@drawable/selector_text_tab"
+            android:textSize="12sp" />
+        
+        <RadioButton
+            android:id="@+id/tab_rb_4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_btn_tab_index3"
+            android:gravity="center"
+            android:text="@string/frament_tab_index3"
+            android:textColor="@drawable/selector_text_tab"
+            android:textSize="12sp" />
+    </RadioGroup>
+    
+    <ImageView android:id="@+id/imageView_main_game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_hall_game"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="25dp"
+            android:gravity="center"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp" />
+
+</FrameLayout>

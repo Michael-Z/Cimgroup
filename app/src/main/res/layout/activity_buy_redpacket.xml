@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hall_background"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/include_simple_title" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/tv_user_count"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@color/color_white"
+        android:layout_height="30dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            
+            <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:gravity="center"
+	            android:layout_gravity="center"
+	            android:orientation="vertical">
+
+	            <cn.com.cimgroup.view.NotScrollGridView
+	                android:id="@+id/gridView_buy"
+	                android:numColumns="2"
+	                android:horizontalSpacing="5dp"
+	                android:verticalSpacing="10dp"
+	                android:paddingTop="5dp"
+	                android:paddingLeft="10dp"
+	                android:paddingRight="10dp"
+	                android:background="@drawable/hall_background"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content" />
+            
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/red_packet_notice"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/color_gray_indicator"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

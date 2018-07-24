@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <View style="@style/style_gray_horizontal_line" />
+    
+    <RelativeLayout
+        android:id="@+id/layoutView_center_help"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@color/layout_bg_color" >
+
+        <ImageView
+            android:id="@+id/imageView_center_icon9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/icon_center_help" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/imageView_center_icon9"
+            android:textColor="@color/color_gray_indicator"
+            android:text="@string/center_help" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/icon_center_right_small" />
+    </RelativeLayout>
+    
+    <View style="@style/style_gray_horizontal_line" />
+
+    <RelativeLayout
+        android:id="@+id/layoutView_center_check"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@color/layout_bg_color" >
+
+        <ImageView
+            android:id="@+id/imageView_center_icon10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/icon_center_check" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/imageView_center_icon10"
+            android:textColor="@color/hall_grey_word"
+            android:text="@string/center_check" />
+
+        <TextView
+            android:id="@+id/textView_center_check_word"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/imageView_center_right2"
+            android:text="@string/center_check_word"
+            android:textColor="@color/hall_grey_word" />
+
+        <ImageView
+            android:id="@+id/imageView_center_right2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/icon_center_right_small" />
+    </RelativeLayout>
+    
+    <View style="@style/style_gray_horizontal_line" />
+
+    <RelativeLayout
+        android:id="@+id/layoutView_center_about"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@color/layout_bg_color" >
+
+        <ImageView
+            android:id="@+id/imageView_center_icon11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/icon_center_about" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/imageView_center_icon11"
+            android:textColor="@color/hall_grey_word"
+            android:text="@string/center_about" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/icon_center_right_small" />
+    </RelativeLayout>
+
+</LinearLayout>

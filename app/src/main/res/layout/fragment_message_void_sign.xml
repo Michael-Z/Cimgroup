@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_no_data_message"
+        android:layout_width="fill_parent"
+        android:layout_height="520dp"
+        android:layout_gravity="center"
+        android:textColor="@color/color_gray_secondary"
+        android:gravity="center"
+        />
+    
+    <TextView
+        android:id="@+id/tv_no_data_lemi"
+        android:layout_width="fill_parent"
+        android:layout_height="563dp"
+        android:textColor="@color/color_gray_secondary"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+
+</RelativeLayout>

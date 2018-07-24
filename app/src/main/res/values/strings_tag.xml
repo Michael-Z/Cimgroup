@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <item name="tag_ball_type" type="id"></item>
+    <item name="tag_dlt_red" type="id"></item>
+    <item name="tag_dlt_bule" type="id"></item>
+    <item name="tag_dlt_red_tuo" type="id"></item>
+    <item name="tag_dlt_bule_tuo" type="id"></item>
+    
+    <item name="tag_list1" type="id"></item>
+    <item name="tag_list2" type="id"></item>
+    <item name="tag_list3" type="id"></item>
+    <item name="tag_list4" type="id"></item>
+    <item name="tag_list5" type="id"></item>
+    <item name="tag_list6" type="id"></item>
+    <item name="tag_list7" type="id"></item>
+    
+    <item name="tag_pl3_z3dsdh" type="id"></item>
+    <item name="tag_pl3_z6fs" type="id"></item>
+    
+    <item name="tag_qyh_sx1" type="id"></item>
+    <item name="tag_qyh_sx2" type="id"></item>
+    <item name="tag_qyh_sx3" type="id"></item>
+    
+    <item name="tag_item_num" type="id"></item>
+    <item name="tag_item_money" type="id"></item>
+    
+    <item name="tag_item_tzdetail_num" type="id"></item>
+    <item name="tag_item_tzdetail_beizhu" type="id"></item>
+    
+</resources>

@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wushiqiu="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layout_bg_color"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginBottom="1dp"
+		android:text="显示近10天关注的比赛"
+		android:textSize="16sp"
+		android:textColor="@color/color_gray_secondary"
+		android:gravity="center"
+		android:background="@color/color_white"
+        />
+    
+    <com.handmark.pulltorefresh.library.PullToRefreshListView 
+        android:id="@+id/scorelist_focus"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@color/transparent"
+        android:divider="@color/layout_bg_color"
+        android:dividerPadding="5dp"
+        android:fadingEdge="none"
+        android:listSelector="@color/transparent"
+        android:scrollbars="none"
+        wushiqiu:ptrAnimationStyle="rotate"
+        ></com.handmark.pulltorefresh.library.PullToRefreshListView>
+    
+</LinearLayout>

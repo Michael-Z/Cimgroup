@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hall_background"
+    android:orientation="vertical" >
+
+    <include layout="@layout/include_title0" />
+
+    <LinearLayout
+        android:id="@+id/layout_register_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/selector_bg_feature_item"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp" >
+
+                <LinearLayout
+                    android:id="@+id/imageView_register_name"
+                    android:layout_width="50dp"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_register_name_red" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/register_line2"
+                    style="@style/style_gray_vertical_line"
+                    android:layout_width="1dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@+id/imageView_register_name" />
+
+                <cn.com.cimgroup.view.DisableExpressionEditText
+                    android:id="@+id/editView_register_name"
+                    style="@style/lotteryhall_text_gray"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_toRightOf="@+id/register_line2"
+                    android:background="@color/color_white"
+                    android:hint="@string/register_write_username"
+                    android:maxLength="12"
+                    android:singleLine="true" />
+            </RelativeLayout>
+
+            <View
+                style="@style/style_gray_horizontal_line"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="1dp" >
+
+                <LinearLayout
+                    android:id="@+id/imageView_register_password"
+                    android:layout_width="50dp"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_register_pwd_red" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/register_line3"
+                    style="@style/style_gray_vertical_line"
+                    android:layout_width="1dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@+id/imageView_register_password" />
+
+                <cn.com.cimgroup.view.DisableExpressionEditText
+                    android:id="@+id/editView_register_password"
+                    style="@style/lotteryhall_text_gray"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_toRightOf="@+id/register_line3"
+                    android:background="@color/color_white"
+                    android:hint="@string/register_write_pwd"
+                    android:inputType="textPassword"
+                    android:maxLength="16"
+                    android:singleLine="true" />
+            </RelativeLayout>
+
+            <View
+                style="@style/style_gray_horizontal_line"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="1dp" >
+
+                <LinearLayout
+                    android:id="@+id/imageView_register_phone"
+                    android:layout_width="50dp"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_register_phone" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/register_line0"
+                    style="@style/style_gray_vertical_line"
+                    android:layout_width="1dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@+id/imageView_register_phone" />
+
+                <EditText
+                    android:id="@+id/editView_register_phone"
+                    style="@style/lotteryhall_text_gray"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_toRightOf="@+id/register_line0"
+                    android:background="@color/color_white"
+                    android:digits="0123456789"
+                    android:hint="@string/register_write_phone"
+                    android:inputType="phone"
+                    android:singleLine="true" />
+            </RelativeLayout>
+
+            <View
+                style="@style/style_gray_horizontal_line"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="2dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/imageView_register_code"
+                    android:layout_width="50dp"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_register_code" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/register_line1"
+                    style="@style/style_gray_vertical_line"
+                    android:layout_width="1dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@+id/imageView_register_code" />
+
+                <EditText
+                    android:id="@+id/editText_register_inputCode"
+                    style="@style/lotteryhall_text_gray"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_toLeftOf="@+id/textView_register_getCode"
+                    android:layout_toRightOf="@+id/register_line1"
+                    android:background="@color/color_white"
+                    android:digits="01234567890"
+                    android:hint="@string/register_write_code"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    android:singleLine="true" />
+
+                <TextView
+                    android:id="@+id/textView_register_getCode"
+                    style="@style/lotteryhall_text_gray"
+                    android:layout_width="100dp"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/selector_bg_common_red_unround"
+                    android:gravity="center"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:text="@string/register_getcode"
+                    android:textColor="@color/color_white"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/checkBox_register_agree"
+                style="@style/MyCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:checked="true"
+                android:gravity="center"
+                android:text="@string/register_agree"
+                android:textColor="@color/hall_grey_word"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView_register_doc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/checkBox_register_agree"
+                android:gravity="center"
+                android:text="@string/register_doc"
+                android:textColor="@color/color_gray_indicator"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView_register_submit"
+            style="@style/common_fillwidth_button"
+            android:background="@drawable/selector_bg_common"
+            android:text="@string/register_submit" />
+    </LinearLayout>
+
+</LinearLayout>

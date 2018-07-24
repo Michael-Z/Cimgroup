@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/id_scorelist_title_layout"
+        layout="@layout/include_title0" />
+
+    <cn.com.cimgroup.view.PagerSlidingTabStrip
+        android:id="@+id/cvView_common_pagertab"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/id_scorelist_title_layout"
+        android:background="@color/color_white"
+        android:textColor="@color/color_black"
+        android:textSize="16sp"
+        app:pstsDividerColor="@color/color_white"
+        app:pstsIndicatorColor="@color/color_red"
+        app:pstsIndicatorHeight="2dp"
+        app:pstsTabPaddingLeftRight="10dp"
+        app:pstsTextDefaultColor="@color/color_gray_secondary"
+        app:pstsTextSelectColor="@color/color_red" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/v4View_common_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/cvView_common_pagertab"
+        android:background="@color/layout_bg_color" />
+
+    <LinearLayout
+        android:id="@+id/id_scorelist_choose_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/id_scorelist_title_layout"
+        android:background="@color/gray_transparent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/id_other_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_gray_secondary"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</RelativeLayout>

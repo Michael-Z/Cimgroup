@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/lvView_popwindow_lotterybidmore"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="178dip"
+        android:cacheColorHint="@color/transparent"
+        android:dividerHeight="0.5dp"
+        android:divider="@android:color/darker_gray"
+        android:fadingEdge="none"
+        android:background="@android:color/transparent"
+        android:fastScrollEnabled="false"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:smoothScrollbar="true" >
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lb="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:text="@string/lottery_dlt_redDan"
+            android:textColor="@color/color_red"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/lottery_dlt_redDan_text"
+            android:textColor="@color/color_gray_indicator" />
+    </LinearLayout>
+
+    <cn.com.cimgroup.view.LBGridView
+        android:id="@+id/gridView_redDan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:numColumns="7"
+        lb:itemBackgroundResource="@drawable/selector_bg_redball"
+        lb:itemTextResource="@color/selector_tv_red_white"
+        lb:itemCount="35" />
+
+    <View style="@style/style_gray_horizontal_line"
+        android:layout_marginTop="5dp"
+        android:layout_height="1dp" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:text="@string/lottery_dlt_redTuo"
+            android:textColor="@color/color_red"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/lottery_dlt_redTuo_text"
+            android:textColor="@color/color_gray_indicator" />
+    </LinearLayout>
+
+    <cn.com.cimgroup.view.LBGridView
+        android:id="@+id/gridView_redTuo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:numColumns="7"
+        lb:itemBackgroundResource="@drawable/selector_bg_redball"
+        lb:itemTextResource="@color/selector_tv_red_white"
+        lb:itemCount="35" />
+
+    <View style="@style/style_gray_horizontal_line"
+        android:layout_marginTop="5dp"
+        android:layout_height="1dp" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:text="@string/lottery_dlt_buleDan"
+            android:textColor="#56A4ED"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/lottery_dlt_buleDan_text"
+            android:textColor="@color/color_gray_indicator" />
+    </LinearLayout>
+
+    <cn.com.cimgroup.view.LBGridView
+        android:id="@+id/gridView_buleDan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:numColumns="7"
+        lb:itemTextResource="@color/selector_tv_bule_white"
+        lb:itemBackgroundResource="@drawable/selector_bg_buleball"
+        lb:itemCount="12" />
+    	
+    <View style="@style/style_gray_horizontal_line"
+        android:layout_marginTop="5dp"
+        android:layout_height="1dp" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:text="@string/lottery_dlt_buleTuo"
+            android:textColor="#56A4ED"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/lottery_dlt_buleTuo_text"
+            android:textColor="@color/color_gray_indicator" />
+    </LinearLayout>
+
+    <cn.com.cimgroup.view.LBGridView
+        android:id="@+id/gridView_buleTuo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="10dp"
+        android:numColumns="7"
+        lb:itemBackgroundResource="@drawable/selector_bg_buleball"
+        lb:itemTextResource="@color/selector_tv_bule_white"
+        lb:itemCount="12" />
+
+</LinearLayout>

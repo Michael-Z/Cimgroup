@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/gray_transparent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/pop_tzlist"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="@string/center_tzlist"
+        android:textColor="@color/color_white" />
+
+    <View
+        android:id="@+id/id_line"
+         style="@style/divider_horizontal" />
+
+    <TextView
+        android:id="@+id/pop_zst"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="@string/pop_zst"
+        android:textColor="@color/color_white" />
+
+    <View style="@style/divider_horizontal" />
+
+    <TextView
+        android:id="@+id/pop_draw"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="@string/pop_draw"
+        android:textColor="@color/color_white" />
+
+    <View style="@style/divider_horizontal" />
+
+    <TextView
+        android:id="@+id/pop_play"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="@string/pop_play"
+        android:textColor="@color/color_white" />
+
+</LinearLayout>

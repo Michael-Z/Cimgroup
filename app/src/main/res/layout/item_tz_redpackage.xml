@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/id_package_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/color_gray_secondary"
+        android:src="@drawable/red_packet_defult" />
+
+    <TextView
+        android:id="@+id/id_package_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_package_type"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/color_gray_secondary"
+        android:gravity="center_horizontal"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/id_package_facecount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/id_package_des"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="8dp"
+        android:textColor="@color/color_white"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/id_package_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/icon_red_select" />
+
+</RelativeLayout>

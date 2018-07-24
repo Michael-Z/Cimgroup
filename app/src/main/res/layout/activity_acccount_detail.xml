@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/id_scorelist_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/color_black" >
+
+        <TextView
+            android:id="@+id/id_scorelist_activity_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:drawableLeft="@drawable/icon_back"
+            android:gravity="center_vertical"
+            android:scaleType="center"
+            android:text="@string/btn_back"
+            android:textColor="@color/color_white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/id_score_activity_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:drawablePadding="3dp"
+            android:drawableRight="@drawable/icon_tz_pull"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/color_white" />
+        <!-- android:drawableRight="@drawable/icon_tz_pull" -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:orientation="horizontal" >
+            
+            <RelativeLayout
+                android:id="@+id/id_scorelist_activity_choose"
+                android:layout_width="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_height="match_parent"
+                 >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/btn_common_select" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/id_scorelist_activity_more"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/calendar" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_match_or_focus"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/id_scorelist_title_layout"
+        android:background="@color/layout_bg_color" >
+
+        <LinearLayout
+            android:id="@+id/ll_title"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:background="@color/color_white"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_match_list"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="比赛列表"
+                android:textColor="@color/color_red"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_match_focus"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="关注"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view_line_red"
+            android:layout_width="180dp"
+            android:layout_height="1dp"
+            android:layout_below="@id/ll_title"
+            android:background="@color/color_red" />
+    </RelativeLayout>
+
+    <!-- 2.6期修改，替换PagerSlidingTabStrip+Viewpager -->
+
+    <FrameLayout
+        android:id="@+id/id_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl_match_or_focus" >
+    </FrameLayout>
+
+    <!-- popupwindow弹出后的黑色半透背景 -->
+
+    <LinearLayout
+        android:id="@+id/id_scorelist_choose_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/id_scorelist_title_layout"
+        android:background="@color/gray_transparent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_toast_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/id_toast_text"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/color_red"
+            android:gravity="center"
+            android:text="哥伦布进1球  比分2:1"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

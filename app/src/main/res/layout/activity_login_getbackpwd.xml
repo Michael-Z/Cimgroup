@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/hall_background"
+	android:orientation="vertical" >
+	
+	<include layout="@layout/include_title0"/>
+	
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_marginTop="15dp"
+		android:focusable="true"
+		android:focusableInTouchMode="true"
+		android:background="@drawable/selector_bg_feature_item"
+		android:orientation="vertical" >
+		
+		<RelativeLayout android:layout_width="fill_parent"
+		    android:layout_marginTop="1dp"
+		    android:layout_height="50dp">
+		    
+		    <LinearLayout android:id="@+id/imageView_getbackpwd_phone"
+		        android:layout_width="50dp"
+		        android:layout_height="fill_parent"
+		        android:layout_alignParentLeft="true"
+		        android:layout_centerVertical="true"
+		        android:gravity="center">
+		    
+		    <ImageView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/icon_register_phone"/>
+		    </LinearLayout>
+		    
+		    <View android:id="@+id/getbackpwd_line0"
+		        style="@style/style_gray_vertical_line"
+		        android:layout_width="1dp"
+		        android:layout_marginRight="5dp"
+		        android:layout_marginTop="5dp"
+		        android:layout_marginBottom="5dp"
+		        android:layout_toRightOf="@+id/imageView_getbackpwd_phone" />
+		    
+		    <EditText android:id="@+id/editView_getbackpwd_phone"
+				style="@style/lotteryhall_text_gray"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_toRightOf="@+id/getbackpwd_line0"
+				android:layout_marginRight="10dp"
+				android:background="@color/color_white"
+				android:singleLine="true"
+				android:hint="@string/register_write_phone" />
+		</RelativeLayout>
+		
+		<View
+			style="@style/style_gray_horizontal_line"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp" />
+		
+		<RelativeLayout android:layout_width="fill_parent"
+			    android:layout_height="50dp"
+			    android:gravity="center_vertical"
+			    android:orientation="horizontal">
+			    
+		    <LinearLayout android:id="@+id/imageView_getbackpwd_code"
+		        android:layout_width="50dp"
+		        android:layout_height="fill_parent"
+		        android:layout_alignParentLeft="true"
+		        android:layout_centerVertical="true"
+		        android:gravity="center">
+		    
+			    <ImageView 
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:src="@drawable/icon_register_code"/>
+			    </LinearLayout>
+			    
+		    <View android:id="@+id/getbackpwd_line1"
+		        style="@style/style_gray_vertical_line"
+		        android:layout_width="1dp"
+		        android:layout_marginRight="5dp"
+		        android:layout_marginTop="5dp"
+		        android:layout_marginBottom="5dp"
+		        android:layout_toRightOf="@+id/imageView_getbackpwd_code" />
+			    
+			    <EditText android:id="@+id/editText_getbackpwd_inputCode"
+					style="@style/lotteryhall_text_gray"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_toRightOf="@+id/getbackpwd_line1"
+					android:layout_toLeftOf="@+id/textView_getbackpwd_getCode"
+					android:layout_marginRight="10dp"
+					android:background="@color/color_white"
+					android:singleLine="true"
+					android:maxLength="4"
+					android:hint="@string/register_write_code" />
+				
+			    <TextView android:id="@+id/textView_getbackpwd_getCode"
+			        style="@style/lotteryhall_text_gray"
+			        android:layout_width="100dp"
+			        android:layout_height="fill_parent"
+			        android:layout_marginRight="10dp"
+			        android:paddingLeft="3dp"
+			        android:paddingRight="3dp"
+			        android:layout_alignParentRight="true"
+			        android:layout_centerVertical="true"
+			        android:gravity="center"
+			        android:textColor="@color/color_white"
+					android:background="@drawable/selector_bg_common_red_unround"
+					android:text="@string/register_getcode"/>
+			</RelativeLayout>
+		
+		<View
+            style="@style/style_gray_horizontal_line"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_marginBottom="1dp"
+            android:layout_height="50dp" >
+
+            <LinearLayout android:id="@+id/imageView_getbackpwd_password"
+		        android:layout_width="50dp"
+		        android:layout_height="fill_parent"
+		        android:layout_alignParentLeft="true"
+		        android:layout_centerVertical="true"
+		        android:gravity="center">
+            
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_register_pwd_red" />
+            </LinearLayout>
+
+            <View android:id="@+id/getbackpwd_line2"
+		        style="@style/style_gray_vertical_line"
+		        android:layout_width="1dp"
+		        android:layout_marginRight="5dp"
+		        android:layout_marginTop="5dp"
+		        android:layout_marginBottom="5dp"
+		        android:layout_toRightOf="@+id/imageView_getbackpwd_password" />
+            
+            <EditText
+                android:id="@+id/editView_getbackpwd_password"
+                style="@style/lotteryhall_text_gray"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/getbackpwd_line2"
+                android:background="@color/color_white"
+                android:hint="@string/register_getback_pwd"
+                android:inputType="textPassword"
+                android:maxLength="16"
+                android:singleLine="true" />
+        </RelativeLayout>
+
+	</LinearLayout>
+	
+	<TextView
+		android:id="@+id/textView_getbackpwd_submit"
+		style="@style/common_fillwidth_button"
+		android:background="@drawable/selector_bg_common"
+		android:text="@string/getbackpwd_submit" />
+	
+	<TextView android:id="@+id/textView_getbackpwd_explain"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+		android:gravity="center"
+		android:textColor="@color/color_gray_indicator"/>
+</LinearLayout>

@@ -1,0 +1,333 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+		Base application theme, dependent on API level. This theme is replaced
+		by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+			Theme customizations available in newer API levels can go in
+			res/values-vXX/styles.xml, while customizations related to
+			backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="layout_w2w">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="layout_m2w">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="android:Theme.Light.NoTitleBar">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!-- popwindow动画 -->
+    <style name="popwin_anim_style">
+        <item name="android:windowEnterAnimation">@anim/pop_enter</item>
+        <item name="android:windowExitAnimation">@anim/pop_out</item>
+    </style>
+    <!-- popwindow动画从下方开始 -->
+    <style name="popwin_down_anim_style">
+        <item name="android:windowEnterAnimation">@anim/pop_enter_down</item>
+        <item name="android:windowExitAnimation">@anim/pop_out_down</item>
+    </style>
+
+    <style name="popsplash_anim_style">
+        <item name="android:windowEnterAnimation">@anim/splash_pop_enter</item>
+    </style>
+
+    <!-- 特色item bg -->
+    <style name="feature_item">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">47dip</item>
+        <item name="android:paddingLeft">20dip</item>
+        <item name="android:paddingRight">20dip</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <!-- 充值 item bg -->
+    <style name="recharge_item">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">47dip</item>
+        <item name="android:paddingLeft">10dip</item>
+        <item name="android:paddingRight">10dip</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <!-- 特色 item 文字背景 -->
+    <style name="feature_item_text" parent="layout_w2w">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/color_gray_secondary</item>
+    </style>
+
+    <style name="feature_item_text2" parent="feature_item_text">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!-- 特色页，item上的右侧箭头 -->
+    <style name="feature_item_icon" parent="layout_w2w">
+        <item name="android:src">@drawable/icon_setting_item_right</item>
+    </style>
+
+    <!-- 充值 item logo -->
+    <style name="recharge_item_logo" parent="layout_w2w">
+        <item name="android:width">30dip</item>
+        <item name="android:height">30dip</item>
+    </style>
+
+    <!-- 主页权重linear -->
+    <style name="lotteryhall_layout_linear">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:background">@drawable/selector_bg_hall_layout</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="lottery_hall_layout_linear2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:background">@drawable/selector_bg_hall_layout</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- 主页灰色文字 -->
+    <style name="lotteryhall_text_yellow" parent="layout_w2w">
+        <item name="android:textColor">@color/color_gray_indicator</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="lotteryhall_text_gray" parent="layout_w2w">
+        <item name="android:textColorHint">@color/color_gray_indicator</item>
+        <item name="android:textColor">@color/color_gray_indicator</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- 水平分割线 -->
+    <style name="divider_horizontal">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.01dp</item>
+        <item name="android:background">@android:color/darker_gray</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- 会员中心Linearlayout和RelativeLayout重复样式 -->
+    <style name="mcenter_layout_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:background">@drawable/selector_bg_hall_layout</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <!-- 银联支付 -->
+    <style name="Theme.UPPay" parent="android:style/Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <!-- 会员中心RelativeLayout中TextView(未认证，未绑定)的重复样式 -->
+    <style name="mcenter_textview_style" parent="layout_w2w">
+        <item name="android:textColor">@color/color_blue</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">20dp</item>
+    </style>
+
+    <!-- 会员中心充值和提现两个圆角TextView的重复样式 -->
+    <style name="mcenter_shape_style">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingTop">8dp</item>
+    </style>
+
+    <!-- 开奖详情 奖级title 的文字控件 -->
+    <style name="lotterydrawinfo_award_leve_title" parent="layout_w2w">
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="common_fillwidth_button">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:background">@color/color_red</item>
+    </style>
+    <!-- 半全场dialog -->
+    <style name="football_lottery_dialog_qcbj">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/selector_bg_footballlottery_bqc_item</item>
+        <item name="android:textColor">@color/selector_btn_footballlottery_dialog_way</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- 赛事选择 -->
+    <style name="football_match_choose_item">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/selector_bg_mcenter_right</item>
+        <item name="android:textColor">@color/color_gray_indicator</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginBottom">1dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="football_match_choose_ok" parent="football_match_choose_item">
+        <item name="android:background">@drawable/selector_bg_mcenter_right</item>
+        <item name="android:textColor">@color/color_gray_indicator</item>
+    </style>
+
+    <style name="football_match_choose_item_ok" parent="football_match_choose_item">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <!-- <item name="android:background">@drawable/selector_bg_football_match_choose_item</item> -->
+        <item name="android:textColor">@color/selector_btn_footballlottery_dialog_way</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginBottom">1dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="football_lottery_dialog_des_txt" parent="layout_w2w">
+        <item name="android:layout_marginBottom">10dip</item>
+        <item name="android:layout_marginTop">10dip</item>
+        <item name="android:textColor">@color/color_gray_secondary</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="prompt_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.5</item>
+    </style>
+    <!-- loading -->
+    <style name="progress_dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- checkbox -->
+    <style name="MyCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/selector_checkbox</item>
+    </style>
+
+    <!-- 购物车中的CheckBox -->
+    <style name="CheckCart" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/selector_bg_check_cart</item>
+    </style>
+
+    <style name="StyledIndicators" parent="@android:style/Theme.Light">
+        <item name="vpiCirclePageIndicatorStyle">@style/CustomCirclePageIndicator</item>
+    </style>
+
+    <style name="CustomCirclePageIndicator">
+        <item name="fillColor">#FF888888</item>
+        <item name="strokeColor">#FF000000</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="radius">10dp</item>
+        <item name="centered">true</item>
+    </style>
+
+    <style name="push_style">
+        <item name="android:hint">@string/style_hint</item>
+        <item name="android:inputType">number</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="push_alias">
+        <item name="android:hint">@string/alias_hint</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="push_tag">
+        <item name="android:hint">@string/tag_hint</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="confirm_pay_item">
+        <item name="android:padding">10dp</item>
+        <item name="android:background">@color/color_white</item>
+    </style>
+
+    <style name="MessageDelDialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="dialog_style" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <!-- ActionSheet底部Dialog的样式 ，有模糊效果 -->
+    <style name="DialogStyle" parent="@android:style/Theme.Dialog">
+
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 浮于Activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- Dialog以外的区域模糊效果 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- Dialog进入及退出动画 -->
+        <item name="android:windowAnimationStyle">@style/DialogAnimation</item>
+    </style>
+    <!-- ActionSheet进出动画 -->
+    <style name="DialogAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/in_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/out_to_bottom</item>
+    </style>
+    
+    <style name="ScoreListDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground"> @color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowFrame">@null</item>
+    </style>
+
+</resources>

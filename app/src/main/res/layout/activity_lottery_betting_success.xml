@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/layout_betting_success_title"
+        layout="@layout/include_title0" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_betting_success_title"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_betting_success" />
+
+        <TextView
+            android:id="@+id/tv_sucess_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:text="@string/lottery_betting_success"
+            android:textColor="@color/color_gray_secondary"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:id="@+id/layout_betting_success_explan"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/textView_betting_success_lototype"
+                android:layout_width="wrap_content"
+                android:textColor="@color/color_gray_secondary"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView_betting_success_issue"
+                android:layout_width="wrap_content"
+                android:textColor="@color/color_gray_secondary"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_gray_secondary"
+                android:text="请随时关注方案状态" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_gray_secondary"
+                android:text="@string/account_balance" />
+
+            <TextView
+                android:id="@+id/textView_betting_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_red" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_gray_secondary"
+                android:layout_marginLeft="10dp"
+                android:text="乐米:" />
+
+            <TextView
+                android:id="@+id/textView_betting_lemi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_red" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_gray_secondary"
+                android:text="@string/account_red_packet" />
+
+            <TextView
+                android:id="@+id/textView_betting_red_packet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_red" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/color_gray_secondary"
+                android:text="红包个数:" />
+
+            <TextView
+                android:id="@+id/textView_betting_red_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_red" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/txtView_look_betting_info"
+                android:layout_width="0dp"
+                android:layout_height="35dip"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_bg_common_red_text"
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="@string/lottery_betting_info"
+                android:textColor="@color/color_red"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtView_other_betting"
+                android:layout_width="0dp"
+                android:layout_height="35dip"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_bg_common_red_bg"
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="@string/lottery_betting_goon"
+                android:textColor="@color/color_white"
+                android:textSize="18sp" />
+        </LinearLayout>
+        
+        
+        <TextView android:id="@+id/txtView_other_tomain"
+                android:layout_width="wrap_content"
+                android:layout_height="35dip"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/selector_bg_common_red_text"
+                android:gravity="center"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:text="返回首页"
+                android:textColor="@color/color_red"
+                android:textSize="18sp" />
+    </LinearLayout>
+
+</RelativeLayout>

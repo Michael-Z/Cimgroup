@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pull="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+ <!--
+    <ExpandableListView
+        android:id="@+id/elistView_lotterybid"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="@color/transparent"
+        android:groupIndicator="@drawable/transparent"
+        android:divider="@color/football_listview_line"
+        android:dividerHeight="1dp"
+        android:listSelector="@color/transparent" >
+    </ExpandableListView>
+     -->
+    <com.handmark.pulltorefresh.library.PullToRefreshExpandableListView
+	    android:id="@+id/elistView_lotterybid"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:cacheColorHint="@color/transparent"
+	    android:divider="@android:color/transparent"
+	    android:dividerHeight="5dp"
+	    android:fadingEdge="none"
+	    android:listSelector="@color/transparent"
+	    android:scrollbars="none"
+	    pull:ptrAnimationStyle="rotate" />
+
+</LinearLayout>

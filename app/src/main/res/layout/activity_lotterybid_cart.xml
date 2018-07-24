@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layout_bg_color"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@color/layout_bg_color"
+	    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layoutView_lotterybid_cart_title"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/title0_height"
+        android:orientation="vertical" >
+
+        <include layout="@layout/include_title0" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvView_lotterybid_cart"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/layoutView_lotterybid_cart_title"
+        android:layout_marginBottom="100dip"
+        android:cacheColorHint="@color/transparent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="false"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:smoothScrollbar="true" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/layout_betting_bet"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/icon_football_cart_bg"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <RelativeLayout android:layout_width="90dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/icon_betting_bottom_backgroud">
+                    
+                    <TextView
+	                    android:id="@+id/btnView_chuan_type"
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="fill_parent"
+	                    android:gravity="center"
+	                    android:text="@string/lotterybid_cart_chuan_type"
+	                    android:textColor="@color/color_gray_secondary" />
+                    
+                    <ImageView android:id="@+id/imageView_chuan_type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:src="@drawable/icon_betting_chuan"/>
+                </RelativeLayout>
+                
+            </LinearLayout>
+
+            <View
+                android:layout_width="1dip"
+                android:layout_height="fill_parent"
+                android:background="@color/color_gray_line" />
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.5"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:textColor="@color/color_gray_secondary"
+                    android:text="@string/cart_add_tou" />
+                
+                <LinearLayout android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:background="@drawable/bg_tz_bei"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout android:id="@+id/imgView_lotterybidmultiple_minus"
+                        android:layout_width="30dp"
+                        android:layout_height="fill_parent"
+                        android:gravity="center" >
+                        
+                        <ImageView
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:src="@drawable/icon_recharge_reduce"/>
+                    </LinearLayout>
+                
+                <View
+            		style="@style/style_gray_vertical_line"
+            		android:background="@color/color_black" />
+
+                <EditText
+                    android:id="@+id/editView_lotterybidmultipley"
+                    android:layout_width="50dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/color_white"
+                    android:layout_margin="1dp"
+                    android:gravity="center"
+                    android:hint="1"
+                    android:inputType="number"
+                    android:digits="0123456789"
+                    android:maxLength="4"
+                    android:text="1"
+                    android:textColor="@color/color_gray_secondary" />
+
+                <View
+            		style="@style/style_gray_vertical_line"
+            		android:background="@color/color_black" />
+                
+                <LinearLayout android:id="@+id/imgView_lotterybidmultiple_plus"
+                        android:layout_width="30dp"
+                        android:layout_height="fill_parent"
+                        android:gravity="center" >
+                        
+	                <ImageView
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:src="@drawable/icon_recharge_add" />
+                
+                </LinearLayout>
+                
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dip"
+                    android:textColor="@color/color_gray_secondary"
+                    android:text="@string/cart_add_bei" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_betting_bet"
+        android:layout_width="fill_parent"
+        android:layout_height="55dip"
+        android:layout_alignParentBottom="true"
+        android:background="@color/color_tab_bg" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/btnView_lotterybid_betting"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="40dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/txtView_total2payprice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/color_white"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <!-- 预计奖金 -->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/lotterybid_cart_win_price"
+                    android:textColor="@color/color_white"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/txtView_win_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/color_white"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+	        android:id="@+id/btnView_lotterybid_betting"
+	        android:layout_width="wrap_content"
+	        android:layout_height="fill_parent"
+	        android:layout_marginTop="5dp"
+	        android:layout_marginBottom="5dp"
+	        android:layout_marginRight="10dip"
+	        android:text="@string/betting"
+	        android:layout_alignParentRight="true"
+	        android:gravity="center"
+	        android:paddingLeft="20dp"
+	        android:paddingRight="20dp"
+	        android:textColor="@color/hall_yellow"
+	        android:background="@drawable/selector_bg_bottom_tz"
+	        android:textSize="14sp" />
+    </RelativeLayout>
+
+    </RelativeLayout>
+    <!-- N串M -->
+    <LinearLayout
+        android:id="@+id/layoutView_lotterybid_nchuanm"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:background="@color/gray_transparent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <include layout="@layout/include_footballlottery_nchuanm"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            />
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/btnView_football_itemselect"
+        android:layout_width="fill_parent"
+        android:layout_height="30dip"
+        android:background="@drawable/selector_bg_lotterybid_ncm_red"
+        android:gravity="center"
+        android:padding="3dip"
+        android:textColor="@color/selector_bg_lotterybetting_ncm_white_red" />
+
+</LinearLayout>

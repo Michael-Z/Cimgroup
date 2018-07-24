@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_bg_center_textview"
+    android:orientation="vertical" >
+
+    <GridView
+        android:id="@+id/gridView_lotterybid_nchuanm"
+        android:layout_width="fill_parent"
+        android:layout_height="180dp"
+        android:gravity="center"
+        android:horizontalSpacing="20dip"
+        android:listSelector="@color/transparent"
+        android:numColumns="2"
+        android:paddingTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:verticalSpacing="10dip" >
+    </GridView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnView_lotterybid_nchuanm_canl"
+                android:layout_width="120dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/selector_bg_center_textview"
+                android:layout_marginRight="20dp"
+                android:text="@string/btn_canl"
+                android:textColor="@color/color_gray_secondary" />
+            <Button
+                android:id="@+id/btnView_lotterybid_nchuanm_ok"
+                android:layout_width="120dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/selector_bg_red_center_textview"
+                android:text="@string/btn_ok"
+                android:textColor="@color/color_white" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

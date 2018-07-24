@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pull="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rv_test"
+    android:orientation="vertical"
+    android:background="@drawable/hall_background" >
+    
+    <include layout="@layout/include_simple_title" />
+    
+	<com.handmark.pulltorefresh.library.PullToRefreshListView 
+	    android:id="@+id/list_view_act"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:cacheColorHint="@color/transparent"
+	    android:fadingEdge="none"
+	    android:listSelector="@color/transparent"
+	    android:scrollbars="none"
+	    pull:ptrAnimationStyle="rotate" />
+    
+</LinearLayout>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_bg_center_textview_no_padding"
+    android:orientation="vertical"
+    android:paddingTop="13dp"
+    >
+
+    <TextView
+        android:id="@+id/txtView_match_choose_txt"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:gravity="center"
+        android:text="@string/football_match_choose"
+        android:textColor="@color/color_gray_secondary"
+        android:layout_marginBottom="8dp"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:id="@+id/linearlayout_my_radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:layout_marginRight="15dp"
+        >
+
+        <!-- 构造一个rediobutton的左边部分 -->
+        <LinearLayout
+            android:id="@+id/btnView_football_match_choose_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <!-- 按钮样式 -->
+            <RelativeLayout
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <View
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/shape_circle_gray_deeper" />
+
+                <View
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/shape_circle_color_white" />
+
+                <View
+                    android:id="@+id/circle_left_inside"
+                    android:layout_width="11dp"
+                    android:layout_height="11dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/shape_circle_red" />
+            </RelativeLayout>
+			<!-- 文字样式 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="全选"
+                android:textColor="@color/color_gray_secondary"
+                android:layout_marginLeft="4dp"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <!-- 构造一个radiobutton的右边部分-->
+        <LinearLayout
+            android:id="@+id/btnView_football_match_choose_noall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:orientation="horizontal"
+             >
+
+            <!-- 按钮样式 -->
+            <RelativeLayout
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <View
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/shape_circle_gray_deeper" />
+
+                <View
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/shape_circle_color_white" />
+
+                <View
+                    android:id="@+id/circle_right_inside"
+                    android:layout_width="11dp"
+                    android:layout_height="11dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/shape_circle_gray" />
+            </RelativeLayout>
+			<!-- 文字样式 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="反选"
+                android:textColor="@color/color_gray_secondary"
+                android:layout_marginLeft="4dp"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gridView_football_match_choose"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:listSelector="@color/transparent"
+        android:numColumns="3"
+        android:scrollbars="none"
+        android:verticalSpacing="15dp" 
+        android:horizontalSpacing="8dip"
+        >
+    </GridView>
+
+    <!-- <LinearLayout android:id="@+id/layout_football_click" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="35dip" -->
+    <!-- android:layout_gravity="center_horizontal|bottom" -->
+    <!-- android:layout_marginTop="10dp" -->
+    <!-- android:layout_marginLeft="20dip" -->
+    <!-- android:layout_marginRight="20dip" -->
+    <!-- android:orientation="horizontal" > -->
+
+
+    <!-- <Button -->
+    <!-- android:id="@+id/btnView_football_match_choose_all" -->
+    <!-- style="@style/football_match_choose_item" -->
+    <!-- android:singleLine="true" -->
+    <!-- android:text="@string/all_select" /> -->
+
+
+    <!-- <Button -->
+    <!-- android:id="@+id/btnView_football_match_choose_noall" -->
+    <!-- style="@style/football_match_choose_item" -->
+    <!-- android:singleLine="true" -->
+    <!-- android:text="@string/all_other_select" /> -->
+
+
+    <!-- <Button -->
+    <!-- android:id="@+id/btnView_football_match_cancel" -->
+    <!-- style="@style/football_match_choose_item" -->
+    <!-- android:singleLine="true" -->
+    <!-- android:text="@string/btn_canl" /> -->
+
+
+    <!-- <Button -->
+    <!-- android:id="@+id/btnView_football_match_ok" -->
+    <!-- style="@style/football_match_choose_item" -->
+    <!-- android:layout_marginRight="0dp" -->
+    <!-- android:singleLine="true" -->
+    <!-- android:text="@string/btn_ok" /> -->
+    <!-- </LinearLayout> -->
+
+    <LinearLayout
+        android:id="@+id/layout_football_click"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/shape_bg_gray_round_5dp_stoke_bottom"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/btnView_football_match_cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/shape_bg_gray_round_5dp_stoke_bottom_left"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/color_gray_secondary"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/btnView_football_match_ok"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/shape_bg_gray_round_5dp_stoke_bottom_right"
+            android:gravity="center"
+            android:text="确认"
+            android:textColor="@color/color_red"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

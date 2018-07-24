@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lb="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/pl3_top"
+        layout="@layout/include_title2" />
+
+    <include
+        android:id="@+id/issue_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/pl3_top"
+        layout="@layout/include_lottery_issue" />
+    
+    <View android:id="@+id/line"
+        style="@style/style_gray_horizontal_line"
+        android:layout_below="@id/issue_layout"
+        android:layout_height="1dp" />
+
+    <cn.com.cimgroup.view.DragLayout
+        android:id="@+id/dragLayout_pl3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tz_layout"
+        android:layout_below="@id/line" >
+
+        <ListView
+            android:id="@+id/listView_pl3_lv_multerm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/transparent"
+			android:dividerHeight="0dp" >
+        </ListView>
+
+        <ScrollView
+            android:id="@+id/scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/sv_hint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/color_gray_indicator" />
+
+                <LinearLayout
+                    android:id="@+id/layout_pl3_zx"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:gravity="center_vertical"
+                            android:text="@string/lottery_11x5_hundred"
+                            android:textColor="@color/color_red"
+                             />
+
+                        <cn.com.cimgroup.view.LBGridView
+                            android:id="@+id/gridView_pl3_bw"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="8dp"
+                            android:numColumns="7"
+                            lb:itemBackgroundResource="@drawable/selector_bg_redball"
+                            lb:itemCount="10"
+                            lb:itemIsPlus="true" />
+                    </LinearLayout>
+
+                    <View style="@style/style_gray_horizontal_line" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:gravity="center_vertical"
+                            android:text="@string/lottery_p3_ten"
+                            android:textColor="@color/color_red"
+                             />
+
+                        <cn.com.cimgroup.view.LBGridView
+                            android:id="@+id/gridView_pl3_sw"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="8dp"
+                            android:numColumns="7"
+                            lb:itemBackgroundResource="@drawable/selector_bg_redball"
+                            lb:itemCount="10"
+                            lb:itemIsPlus="true" />
+                    </LinearLayout>
+
+                    <View style="@style/style_gray_horizontal_line" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:gravity="center_vertical"
+                            android:text="@string/lottery_p3_Bits"
+                            android:textColor="@color/color_red"
+                             />
+
+                        <cn.com.cimgroup.view.LBGridView
+                            android:id="@+id/gridView_pl3_gw"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="8dp"
+                            android:numColumns="7"
+                            lb:itemBackgroundResource="@drawable/selector_bg_redball"
+                            lb:itemCount="10"
+                            lb:itemIsPlus="true" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ViewStub
+                    android:id="@+id/layout_pl3_zhixhz"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout="@layout/activity_lottery_pl3_zhixhz" />
+
+                <ViewStub
+                    android:id="@+id/layout_pl3_z3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout="@layout/activity_lottery_pl3_z3" />
+
+                <ViewStub
+                    android:id="@+id/layout_pl3_zxhz"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout="@layout/activity_lottery_pl3_zxhz" />
+
+                <ViewStub
+                    android:id="@+id/layout_pl3_z6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout="@layout/activity_lottery_pl3_z6" />
+
+            </LinearLayout>
+        </ScrollView>
+    </cn.com.cimgroup.view.DragLayout>
+
+    <include
+        android:id="@+id/tz_layout"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        layout="@layout/include_bottom_tz" />
+
+    <LinearLayout
+        android:id="@+id/pop_pl3_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/pl3_top"
+        android:background="@color/gray_transparent"
+        android:orientation="vertical"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/color_black" >
+
+    <TextView
+        android:id="@+id/layoutView_title_left1"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:scaleType="center"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:textSize="16sp"
+        android:drawableLeft="@drawable/icon_back"
+        android:gravity="center_vertical"
+        android:textColor="@color/color_white"
+		android:text="@string/btn_back" />
+    
+    <TextView android:id="@+id/textView_lotterybid_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:singleLine="true"
+        android:gravity="center_vertical|right"
+        android:layout_centerInParent="true"
+        android:drawablePadding="3dp"
+        android:drawableRight="@drawable/icon_tz_pull"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/color_white" />
+
+    <ImageView
+        android:id="@+id/imgView_lotterybid_select"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/imgView_footballbid_more"
+        android:visibility="gone"
+        android:src="@drawable/btn_common_select" />
+
+    <ImageView
+        android:id="@+id/imgView_footballbid_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/icon_top_menu"
+        android:visibility="gone" />
+
+</RelativeLayout>

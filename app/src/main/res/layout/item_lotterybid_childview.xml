@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/layout_bg_color"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/id_match_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="美公开赛"
+            android:textColor="@color/color_gray_secondary"
+            android:textSize="14sp" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-16dp"
+            android:layout_weight="4" >
+
+            <TextView
+                android:id="@+id/id_vs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="VS"
+                android:textColor="@color/color_red" />
+
+            <TextView
+                android:id="@+id/id_host_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@id/id_vs"
+                android:gravity="center_vertical|right"
+                android:text="阿斯塔纳"
+                android:textColor="@color/color_gray_secondary" />
+
+            <TextView
+                android:id="@+id/id_guest_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/id_vs"
+                android:gravity="center_vertical|left"
+                android:text="年轻人"
+                android:textColor="@color/color_gray_secondary" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/layout_bg_color"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/id_show_detail_layout"
+            android:layout_width="0dip"
+            android:layout_height="70dp"
+            android:layout_weight="1.0"
+            android:background="@android:color/white"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/id_match_time"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="001"
+                android:textColor="@color/color_gray_secondary"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/id_match_end_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="20:00截止"
+                android:textColor="@color/color_gray_secondary"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/id_show_detail_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/icon_center_right_pull" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutView_match_type"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:background="@color/layout_bg_color"
+            android:gravity="center"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_detail_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="@color/layout_bg_color"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@android:color/white"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/color_gray_secondary"
+                android:text="历史交战" />
+
+            <TextView
+                android:id="@+id/id_detail_history_info"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:textColor="@color/color_gray_indicator" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="0.5dp"
+            android:background="@android:color/white"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/color_gray_secondary"
+                android:text="近期交战" />
+
+            <TextView
+                android:id="@+id/id_detail_near_info"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:textColor="@color/color_gray_indicator" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="0.5dp"
+            android:background="@android:color/white"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="@color/color_gray_secondary"
+                android:text="平均赔率" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="35dp"
+                android:background="@color/layout_bg_color"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/id_detail_average_s"
+                    android:layout_width="0dp"
+                    android:background="@color/color_white"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textColor="@color/color_gray_indicator"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/id_detail_average_p"
+                    android:layout_width="0dp"
+                    android:layout_marginLeft="0.5dp"
+                    android:layout_marginRight="0.5dp"
+                    android:background="@color/color_white"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textColor="@color/color_gray_indicator"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/id_detail_average_f"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textColor="@color/color_gray_indicator"
+                    android:background="@color/color_white"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/id_detail_average_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:background="@color/color_white"
+                    android:textColor="@color/color_gray_indicator" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="0.5dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/id_to_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/icon_score_game_wuxiao"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/icon_center_right"
+                android:gravity="center"
+                android:text="查看详细赛事分析"
+                android:textColor="@color/color_gray_indicator"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/id_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/layout_bg_color" />
+
+</LinearLayout>

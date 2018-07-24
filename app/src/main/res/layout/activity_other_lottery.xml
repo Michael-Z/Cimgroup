@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layout_bg_color"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/other_top"
+        layout="@layout/include_title0" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            <RelativeLayout
+                android:id="@+id/layout_hall_dlt"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginTop="1dp"
+                android:visibility="gone"
+                android:background="@drawable/selector_bg_hall_layout" >
+
+                <FrameLayout android:id="@+id/framelayout_hall_dlt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+	                android:layout_marginRight="10dp" >
+                    
+                    <ImageView
+	                    android:id="@+id/image_hall_dlt"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_gravity="center"
+	                    android:src="@drawable/icon_hall_dlt" />
+                    
+                    <FrameLayout android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center">
+                        
+                        <ImageView
+		                    android:id="@+id/image_other_dlt_status"
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:visibility="invisible"
+		                    android:src="@drawable/icon_lottery_other" />
+                        
+                        <TextView android:id="@+id/textView_other_dlt_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal|bottom"
+                            android:textSize="12sp" />
+                    </FrameLayout>
+                    
+                </FrameLayout>
+                
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dp"
+                    android:layout_toRightOf="@+id/framelayout_hall_dlt"
+                    android:orientation="vertical" >
+
+                    <TextView android:id="@+id/textView_other_dlt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lotteryhall_dlt"
+                        android:textColor="@color/color_gray_secondary" />
+
+                    <TextView
+                        style="@style/lotteryhall_text_yellow"
+                        android:text="@string/lotteryhall_desc7" />
+                </LinearLayout>
+
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:id="@+id/layout_hall_qxc"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginTop="1dp"
+                android:visibility="gone"
+                android:background="@drawable/selector_bg_hall_layout" >
+
+                <FrameLayout android:id="@+id/framelayout_hall_qxc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+	                android:layout_marginRight="10dp" >
+                    
+                    <ImageView
+	                    android:id="@+id/image_hall_qxc"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_gravity="center"
+	                    android:src="@drawable/icon_hall_qxc" />
+                    
+                    <FrameLayout android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center">
+                        
+                        <ImageView
+		                    android:id="@+id/image_other_qxc_status"
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:visibility="invisible"
+		                    android:src="@drawable/icon_lottery_other" />
+                        
+                        <TextView android:id="@+id/textView_other_qxc_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal|bottom"
+                            android:textSize="12sp" />
+                    </FrameLayout>
+                    
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dp"
+                    android:layout_toRightOf="@+id/framelayout_hall_qxc"
+                    android:orientation="vertical" >
+
+                    <TextView android:id="@+id/textView_other_qxc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lotteryhall_qxc"
+                        android:textColor="@color/color_gray_secondary" />
+
+                    <TextView
+                        style="@style/lotteryhall_text_yellow"
+                        android:text="@string/lotteryhall_desc7" />
+                </LinearLayout>
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:id="@+id/layout_hall_p3"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginTop="1dp"
+                android:visibility="gone"
+                android:background="@drawable/selector_bg_hall_layout" >
+
+                <FrameLayout android:id="@+id/framelayout_hall_p3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+	                android:layout_marginRight="10dp" >
+                    
+                    <ImageView
+	                    android:id="@+id/image_hall_p3"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_gravity="center"
+	                    android:src="@drawable/icon_hall_p3" />
+                    
+                    <FrameLayout android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center">
+                        
+                        <ImageView
+		                    android:id="@+id/image_other_p3_status"
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:visibility="invisible"
+		                    android:src="@drawable/icon_lottery_other" />
+                        
+                        <TextView android:id="@+id/textView_other_p3_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal|bottom"
+                            android:textSize="12sp" />
+                    </FrameLayout>
+                    
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dp"
+                    android:layout_toRightOf="@+id/framelayout_hall_p3"
+                    android:orientation="vertical" >
+
+                    <TextView android:id="@+id/textView_other_p3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lotteryhall_p3"
+                        android:textColor="@color/color_gray_secondary" />
+
+                    <TextView
+                        style="@style/lotteryhall_text_yellow"
+                        android:text="@string/lotteryhall_desc7" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layout_hall_p5"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/selector_bg_hall_layout" >
+
+                <FrameLayout android:id="@+id/framelayout_hall_p5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+	                android:layout_marginRight="10dp" >
+                    
+                    <ImageView
+	                    android:id="@+id/image_hall_p5"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_gravity="center"
+	                    android:src="@drawable/icon_hall_p5" />
+                    
+                    <FrameLayout android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center">
+                        
+                        <ImageView
+		                    android:id="@+id/image_other_p5_status"
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:visibility="invisible"
+		                    android:src="@drawable/icon_lottery_other" />
+                        
+                        <TextView android:id="@+id/textView_other_p5_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/color_gray_secondary"
+                            android:layout_gravity="center_horizontal|bottom"
+                            android:textSize="12sp" />
+                    </FrameLayout>
+                    
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dp"
+                    android:layout_toRightOf="@+id/framelayout_hall_p5"
+                    android:orientation="vertical" >
+
+                    <TextView android:id="@+id/textView_other_p5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lotteryhall_p5"
+                        android:textColor="@color/color_gray_secondary" />
+
+                    <TextView
+                        style="@style/lotteryhall_text_yellow"
+                        android:text="@string/lotteryhall_desc7" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layout_hall_jqs"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/selector_bg_hall_layout" >
+
+                <FrameLayout android:id="@+id/framelayout_hall_jqs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+	                android:layout_marginRight="10dp" >
+                    
+                    <ImageView
+	                    android:id="@+id/image_hall_jqs"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_gravity="center"
+	                    android:src="@drawable/icon_hall_jqs" />
+                    
+                    <FrameLayout android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center">
+                        
+                        <ImageView
+		                    android:id="@+id/image_other_jqs_status"
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:visibility="invisible"
+		                    android:src="@drawable/icon_lottery_other" />
+                        
+                        <TextView android:id="@+id/textView_other_jqs_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal|bottom"
+                            android:textColor="@color/color_gray_secondary"
+                            android:textSize="12sp" />
+                    </FrameLayout>
+                    
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dp"
+                    android:layout_toRightOf="@+id/framelayout_hall_jqs"
+                    android:orientation="vertical" >
+
+                    <TextView android:id="@+id/textView_other_jqs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lotteryhall_jqs"
+                        android:textColor="@color/color_gray_secondary" />
+
+                    <TextView
+                        style="@style/lotteryhall_text_yellow"
+                        android:text="@string/lotteryhall_desc11" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layout_hall_bqc"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/selector_bg_hall_layout" >
+
+                <FrameLayout android:id="@+id/framelayout_hall_bqc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+	                android:layout_marginRight="10dp" >
+                    
+                    <ImageView
+	                    android:id="@+id/image_hall_bqc"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_gravity="center"
+	                    android:src="@drawable/icon_hall_bqc" />
+                    
+                    <FrameLayout android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center">
+                        
+                        <ImageView
+		                    android:id="@+id/image_other_bqc_status"
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:visibility="invisible"
+		                    android:src="@drawable/icon_lottery_other" />
+                        
+                        <TextView android:id="@+id/textView_other_bqc_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/color_gray_secondary"
+                            android:layout_gravity="center_horizontal|bottom"
+                            android:textSize="12sp" />
+                    </FrameLayout>
+                    
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dp"
+                    android:layout_toRightOf="@+id/framelayout_hall_bqc"
+                    android:orientation="vertical" >
+
+                    <TextView android:id="@+id/textView_other_bqc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lotteryhall_bqc"
+                        android:textColor="@color/color_gray_secondary" />
+
+                    <TextView
+                        style="@style/lotteryhall_text_yellow"
+                        android:text="@string/lotteryhall_desc10" />
+                </LinearLayout>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

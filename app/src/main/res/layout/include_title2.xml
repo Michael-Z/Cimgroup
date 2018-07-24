@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/color_black" >
+
+    <TextView android:id="@+id/textView_title_back2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dip"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:textSize="16sp"
+        android:drawableLeft="@drawable/icon_back"
+        android:textColor="@color/color_white"
+        android:text="@string/btn_back"/>
+
+    <TextView
+        android:id="@+id/textView_title_word2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dip"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:drawablePadding="3dp"
+        android:drawableRight="@drawable/icon_tz_pull"
+        android:layout_centerInParent="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/color_white" />
+
+    <ImageView
+        android:id="@+id/textView_title_menu2"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/icon_top_menu"
+        android:clickable="true"
+        android:onClick="onClick" />
+    
+    <ImageView
+        android:id="@+id/imageView_title_select2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/btn_common_select"
+        android:layout_marginRight="10dip"
+        android:paddingTop="5dip"
+        android:paddingBottom="5dip"
+        android:paddingLeft="2dip"
+        android:clickable="true"
+        android:textSize="12sp"
+        android:textColor="@color/color_white"
+        android:visibility="gone"
+        android:onClick="onClick" />
+    
+</RelativeLayout>

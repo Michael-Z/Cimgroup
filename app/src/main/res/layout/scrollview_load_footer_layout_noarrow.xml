@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ScrollView的头部 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/footer_rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/layout_bg_color"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <ProgressBar
+        android:id="@+id/id_footer_progressbar"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:indeterminateBehavior="repeat"
+        android:indeterminateDrawable="@drawable/progressbar_bg"
+        android:indeterminateOnly="true" />
+
+    <TextView
+        android:id="@+id/id_footer_toast_title"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/pulltoloading"
+        android:textAppearance="?android:attr/textAppearance"
+        android:textColor="#717171"
+        android:textStyle="bold" />
+
+</LinearLayout>

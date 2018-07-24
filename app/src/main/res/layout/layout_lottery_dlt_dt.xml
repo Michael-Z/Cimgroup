@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:text="@string/lottery_dlt_redDan"
+            android:textColor="@color/color_red"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/lottery_dlt_redDan_text"
+            android:textColor="@color/color_gray_indicator" />
+    </LinearLayout>
+
+    <com.sunloto.shandong.widget.PreviewGridView
+        android:id="@+id/red_dan_gv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:listSelector="@color/transparent"
+        android:numColumns="7"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:text="@string/lottery_dlt_redTuo"
+            android:textColor="@color/color_red"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/lottery_dlt_redTuo_text"
+            android:textColor="@color/color_gray_indicator" />
+    </LinearLayout>
+
+    <cn.com.cimgroup.view.LBGridView
+        android:id="@+id/red_tuo_gv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:listSelector="@color/transparent"
+        android:numColumns="7"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:text="@string/lottery_dlt_bule_tv1"
+            android:textColor="#56A4ED"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/lottery_dlt_bule_tv1_text1"
+            android:textColor="@color/color_gray_indicator" />
+    </LinearLayout>
+
+    <cn.com.cimgroup.view.LBGridView
+        android:id="@+id/bule_tuodan_gv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="8dp"
+        android:listSelector="@color/transparent"
+        android:numColumns="7"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="5dp" />
+
+</LinearLayout>

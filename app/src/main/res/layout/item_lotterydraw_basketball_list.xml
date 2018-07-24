@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_white"
+    android:baselineAligned="false"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp" 
+        android:orientation="horizontal" 
+        >
+
+        <LinearLayout
+            android:id="@+id/ll_icon_left"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/color_basketball_orange"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_match_left_top"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingTop="4dp"
+                android:text="NBA"
+                android:textColor="@color/color_white"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_bottom_left_left"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|right"
+                    android:padding="4dp"
+                    android:text="301"
+                    android:textColor="@color/color_white"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_bottom_left_right"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:padding="4dp"
+                    android:text="09:00"
+                    android:textColor="@color/color_white"
+                    android:textSize="8sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View style="@style/style_gray_vertical_line" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@color/color_white"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_guest_team_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="@color/color_gray_secondary"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_host_team_vs"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="VS"
+                android:textColor="@color/color_gray_indicator"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_host_team_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:padding="4dp"
+                android:textColor="@color/color_gray_secondary"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <View style="@style/style_gray_vertical_line" />
+
+        <LinearLayout
+            android:id="@+id/ll_icon_right"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/color_red"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_match_right_top"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingTop="4dp"
+                android:text="主胜"
+                android:textColor="@color/color_white"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_bottom_right_left"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:gravity="center_vertical|right"
+                    android:text="109"
+                    android:textColor="@color/color_white"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_bottom_right_center"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=":"
+                    android:textColor="@color/color_white"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_bottom_right_right"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="5"
+                    android:gravity="center_vertical|left"
+                    android:text="115"
+                    android:textColor="@color/color_white"
+                    android:textSize="12sp" />
+                
+                <TextView
+                    android:id="@+id/tv_no_sale"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                  	android:padding="4dp"
+                  	android:gravity="center"
+                    android:text="未开售"
+                    android:textColor="@color/color_gray_secondary"
+                    android:visibility="gone"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View style="@style/style_gray_horizontal_line" />
+
+</LinearLayout>

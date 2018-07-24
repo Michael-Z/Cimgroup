@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layout_bg_color" >
+
+    <include
+        android:id="@+id/lottery_cart_top"
+        layout="@layout/include_title0" />
+
+    <include
+        android:id="@+id/layout_cart_issue"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/lottery_cart_top"
+        layout="@layout/include_lottery_issue"
+        android:background="@android:color/white" />
+
+    <LinearLayout
+        android:id="@+id/lottery_cart_top2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/layout_cart_issue"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/layout_bg_color"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lottery_cart_add_zx"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_bg_red_left_round"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="@string/cart_add_zx"
+            android:textColor="@color/color_white" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/layout_bg_color" />
+
+        <TextView
+            android:id="@+id/lottery_cart_add_jx"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_bg_red_right_round"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="@string/cart_add_jx"
+            android:textColor="@color/color_white" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/lottery_cart_bottom3"
+        android:layout_below="@id/lottery_cart_top2"
+        android:background="@android:color/white"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/lottery_cart_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/lottery_crat_null_hint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:clickable="true"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:textColor="@color/color_gray_secondary"
+                android:padding="5dp"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/lottery_cart_del"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:padding="10dp"
+                    android:src="@drawable/icon_touzhu_del" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_cart_check_sel" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="我已阅读并同意"
+                    android:textColor="@color/color_gray_indicator"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textView_tz_shuoming"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="《委托投注协议》"
+                    android:textColor="@color/color_gray_indicator"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/lottery_cart_bottom3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lottery_cart_divider1"
+        android:background="@drawable/icon_football_cart_bg"
+        android:baselineAligned="false"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center|left"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cart_add_tou"
+                    android:textColor="@color/color_gray_secondary"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/bg_tz_bei"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/textView_tb_sub"
+                        android:layout_width="30dp"
+                        android:layout_height="fill_parent"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:onClick="onClick" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/icon_recharge_reduce" />
+                    </LinearLayout>
+
+                    <View
+                        style="@style/style_gray_vertical_line"
+                        android:background="@color/color_black" />
+
+                    <EditText
+                        android:id="@+id/editText_tb"
+                        android:layout_width="50dp"
+                        android:layout_height="fill_parent"
+                        android:layout_margin="1dp"
+                        android:background="@color/color_white"
+                        android:gravity="center"
+                        android:hint="1"
+                        android:inputType="number"
+                        android:maxLength="4"
+                        android:text="1"
+                        android:textColor="@color/color_gray_secondary" />
+
+                    <View
+                        style="@style/style_gray_vertical_line"
+                        android:background="@color/color_black" />
+
+                    <LinearLayout
+                        android:id="@+id/textView_tb_add"
+                        android:layout_width="30dp"
+                        android:layout_height="fill_parent"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:onClick="onClick" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/icon_recharge_add" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cart_add_bei"
+                    android:textColor="@color/color_gray_secondary"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center|right"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color_gray_secondary"
+                    android:text="@string/cart_add_zhui"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/bg_tz_bei"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/textView_zq_sub"
+                        android:layout_width="30dp"
+                        android:layout_height="fill_parent"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:onClick="onClick" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/icon_recharge_reduce" />
+                    </LinearLayout>
+
+                    <View
+                        style="@style/style_gray_vertical_line"
+                        android:background="@color/color_black" />
+
+                    <EditText
+                        android:id="@+id/editText_zq"
+                        android:layout_width="50dp"
+                        android:layout_height="fill_parent"
+                        android:layout_margin="1dp"
+                        android:background="@color/color_white"
+                        android:gravity="center"
+                        android:hint="1"
+                        android:inputType="number"
+                        android:maxLength="4"
+                        android:digits="0123456789"
+                        android:text="1"
+                        android:textColor="@color/color_gray_secondary" />
+
+                    <View
+                        style="@style/style_gray_vertical_line"
+                        android:background="@color/color_black" />
+
+                    <LinearLayout
+                        android:id="@+id/textView_zq_add"
+                        android:layout_width="30dp"
+                        android:layout_height="fill_parent"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:onClick="onClick" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/icon_recharge_add" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cart_add_qi"
+                    android:textColor="@color/color_gray_secondary"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/lottery_cart_divider2"
+            style="@style/divider_horizontal" />
+
+        <LinearLayout
+            android:id="@+id/lottery_cart_bottom2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/lottery_cart_tingzhi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/imageView_cart_tingzhi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/selector_bg_check_cart" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="中奖后停止"
+                    android:textColor="@color/color_gray_secondary"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lottery_cart_zhuijia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:id="@+id/imageView_cart_zhuijia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/selector_bg_check_cart" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="追加投注"
+                    android:textColor="@color/color_gray_secondary"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/lottery_cart_divider1"
+        style="@style/divider_horizontal"
+        android:layout_above="@+id/lottery_cart_bottom1" />
+
+    <RelativeLayout
+        android:id="@+id/lottery_cart_bottom1"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/color_tab_bg" >
+
+        <TextView
+            android:id="@+id/lottery_cart_hemai_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/color_gray_secondary"
+            android:background="@drawable/shape_white_fill_gray_border"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:padding="5dp"
+            android:text="@string/cart_hemai_tv"
+            android:textSize="16sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/lottery_cart_buy_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/selector_bg_bottom_tz"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/cart_buy_tv"
+            android:textColor="@color/hall_yellow"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@id/lottery_cart_buy_tv"
+            android:layout_toRightOf="@id/lottery_cart_hemai_tv"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView_cart_num_mult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_white" />
+
+            <TextView
+                android:id="@+id/textView_cart_term_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_white" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

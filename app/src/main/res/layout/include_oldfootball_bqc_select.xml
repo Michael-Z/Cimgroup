@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:background="@color/border_color"
+    android:orientation="vertical"
+    android:padding="0.5dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/lottery_bid_item_select"
+        android:background="@color/border_color"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="0.5dp"
+            android:background="@color/color_white"
+            android:ems="1"
+            android:gravity="center"
+            android:text="半场"
+            android:textColor="@color/selector_bg_footballlottery_sfc"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:id="@+id/txtView_footballlottery_bqc_select1"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_bg_footballlottery_spf_item_center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="3"
+                android:textColor="@color/selector_bg_footballlottery_sfc"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/txtView_footballlottery_bqc_select2"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0.5dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_bg_footballlottery_spf_item_center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="@color/selector_bg_footballlottery_sfc"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/txtView_footballlottery_bqc_select3"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0.5dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_bg_footballlottery_spf_item_center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@color/selector_bg_footballlottery_sfc"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/lottery_bid_item_select"
+        android:layout_marginTop="0.5dp"
+        android:background="@color/border_color"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="0.5dp"
+            android:background="@color/color_white"
+            android:ems="1"
+            android:gravity="center"
+            android:text="全场"
+            android:textColor="@color/selector_bg_footballlottery_sfc"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:id="@+id/txtView_footballlottery_bqc_select4"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_bg_footballlottery_spf_item_center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="3"
+                android:textColor="@color/selector_bg_footballlottery_sfc"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/txtView_footballlottery_bqc_select5"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0.5dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_bg_footballlottery_spf_item_center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="@color/selector_bg_footballlottery_sfc"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/txtView_footballlottery_bqc_select6"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0.5dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_bg_footballlottery_spf_item_center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@color/selector_bg_footballlottery_sfc"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

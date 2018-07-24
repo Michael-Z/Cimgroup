@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white"
+    android:orientation="vertical" >
+
+    <!-- 胜平负 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:background="@color/border_color"
+        android:orientation="horizontal"
+        android:paddingBottom="0.5dp"
+        android:paddingRight="0.5dp"
+        android:paddingTop="0.5dp" >
+
+        <TextView
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:background="@color/color_kafei_line"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/color_white"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnView_football_lottery_dialog_hhgg_spf_0"
+            style="@style/football_lottery_dialog_qcbj" />
+
+        <Button
+            android:id="@+id/btnView_football_lottery_dialog_hhgg_spf_1"
+            style="@style/football_lottery_dialog_qcbj"
+            android:layout_marginLeft="0.5dp" />
+
+        <Button
+            android:id="@+id/btnView_football_lottery_dialog_hhgg_spf_2"
+            style="@style/football_lottery_dialog_qcbj"
+            android:layout_marginLeft="0.5dp" />
+    </LinearLayout>
+
+    <!-- 让球胜平负 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:background="@color/border_color"
+        android:orientation="horizontal"
+        android:paddingBottom="0.5dp"
+        android:paddingRight="0.5dp" >
+
+        <TextView
+            android:id="@+id/txtView_football_lottery_dialog_hhgg_allow1"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:background="@color/color_green_warm"
+            android:gravity="center"
+            android:textColor="@color/color_white"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnView_football_lottery_dialog_hhgg_rspf_0"
+            style="@style/football_lottery_dialog_qcbj" />
+
+        <Button
+            android:id="@+id/btnView_football_lottery_dialog_hhgg_rspf_1"
+            style="@style/football_lottery_dialog_qcbj"
+            android:layout_marginLeft="0.5dp" />
+
+        <Button
+            android:id="@+id/btnView_football_lottery_dialog_hhgg_rspf_2"
+            style="@style/football_lottery_dialog_qcbj"
+            android:layout_marginLeft="0.5dp" />
+    </LinearLayout>
+
+    <!-- 比分 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/border_color"
+        android:orientation="horizontal"
+        android:paddingBottom="0.5dp"
+        android:paddingRight="0.5dp" >
+
+        <TextView
+            android:id="@+id/txtView_football_dialog_bf_desc"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:background="@color/color_football_bf"
+            android:gravity="center"
+            android:textColor="@color/color_white"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dip"
+                android:background="@color/border_color"
+                android:orientation="horizontal"
+                android:paddingBottom="0.5dp"
+                android:paddingTop="0.5dp" >
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_bf_0"
+                    style="@style/football_lottery_dialog_qcbj" />
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_bf_1"
+                    style="@style/football_lottery_dialog_qcbj"
+                    android:layout_marginLeft="0.5dp" />
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_bf_2"
+                    style="@style/football_lottery_dialog_qcbj"
+                    android:layout_marginLeft="0.5dp" />
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_bf_3"
+                    style="@style/football_lottery_dialog_qcbj"
+                    android:layout_marginLeft="0.5dp" />
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_bf_4"
+                    style="@style/football_lottery_dialog_qcbj"
+                    android:layout_marginLeft="0.5dp" />
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_bf_5"
+                    style="@style/football_lottery_dialog_qcbj"
+                    android:layout_marginLeft="0.5dp" />
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_bf_6"
+                    style="@style/football_lottery_dialog_qcbj"
+                    android:layout_marginLeft="0.5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dip"
+                android:background="@color/border_color"
+                android:orientation="horizontal"
+                android:paddingBottom="0.5dp" >
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_bf_7"
+                    style="@style/football_lottery_dialog_qcbj" />
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_bf_8"
+                    style="@style/football_lottery_dialog_qcbj"
+                    android:layout_marginLeft="0.5dp" />
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_bf_9"
+                    style="@style/football_lottery_dialog_qcbj"
+                    android:layout_marginLeft="0.5dp" />
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_bf_10"
+                    style="@style/football_lottery_dialog_qcbj"
+                    android:layout_marginLeft="0.5dp" />
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_bf_11"
+                    style="@style/football_lottery_dialog_qcbj"
+                    android:layout_marginLeft="0.5dp" />
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_bf_12"
+                    style="@style/football_lottery_dialog_qcbj"
+                    android:layout_marginLeft="0.5dp"
+                    android:layout_weight="2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dip"
+                android:background="@color/border_color"
+                android:orientation="horizontal"
+                android:paddingBottom="0.5dp" >
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_bf_13"
+                    style="@style/football_lottery_dialog_qcbj" />
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_bf_14"
+                    style="@style/football_lottery_dialog_qcbj"
+                    android:layout_marginLeft="0.5dp" />
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_bf_15"
+                    style="@style/football_lottery_dialog_qcbj"
+                    android:layout_marginLeft="0.5dp" />
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_bf_16"
+                    style="@style/football_lottery_dialog_qcbj"
+                    android:layout_marginLeft="0.5dp" />
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_bf_17"
+                    style="@style/football_lottery_dialog_qcbj"
+                    android:layout_marginLeft="0.5dp"
+                    android:layout_weight="3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dip"
+                android:background="@color/border_color"
+                android:orientation="horizontal"
+                android:paddingBottom="0.5dp" >
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_bf_18"
+                    style="@style/football_lottery_dialog_qcbj" />
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_bf_19"
+                    style="@style/football_lottery_dialog_qcbj"
+                    android:layout_marginLeft="0.5dp" />
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_bf_20"
+                    style="@style/football_lottery_dialog_qcbj"
+                    android:layout_marginLeft="0.5dp" />
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_bf_21"
+                    style="@style/football_lottery_dialog_qcbj"
+                    android:layout_marginLeft="0.5dp" />
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_bf_22"
+                    style="@style/football_lottery_dialog_qcbj"
+                    android:layout_marginLeft="0.5dp" />
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_bf_23"
+                    style="@style/football_lottery_dialog_qcbj"
+                    android:layout_marginLeft="0.5dp" />
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_bf_24"
+                    style="@style/football_lottery_dialog_qcbj"
+                    android:layout_marginLeft="0.5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dip"
+                android:background="@color/border_color"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_bf_25"
+                    style="@style/football_lottery_dialog_qcbj" />
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_bf_26"
+                    style="@style/football_lottery_dialog_qcbj"
+                    android:layout_marginLeft="0.5dp" />
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_bf_27"
+                    style="@style/football_lottery_dialog_qcbj"
+                    android:layout_marginLeft="0.5dp" />
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_bf_28"
+                    style="@style/football_lottery_dialog_qcbj"
+                    android:layout_marginLeft="0.5dp" />
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_bf_29"
+                    style="@style/football_lottery_dialog_qcbj"
+                    android:layout_marginLeft="0.5dp" />
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_bf_30"
+                    style="@style/football_lottery_dialog_qcbj"
+                    android:layout_marginLeft="0.5dp"
+                    android:layout_weight="2" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 进球数 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/border_color"
+        android:orientation="horizontal"
+        android:paddingBottom="0.5dp"
+        android:paddingRight="0.5dp"
+        android:paddingTop="0.5dp" >
+
+        <TextView
+            android:id="@+id/txtView_football_dialog_jqs_desc"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:background="@color/hall_blue"
+            android:gravity="center"
+            android:textColor="@color/color_white"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dip"
+                android:background="@color/border_color"
+                android:orientation="horizontal"
+                android:paddingBottom="0.5dp" >
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_jqs_0"
+                    style="@style/football_lottery_dialog_qcbj" />
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_jqs_1"
+                    style="@style/football_lottery_dialog_qcbj"
+                    android:layout_marginLeft="0.5dp" />
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_jqs_2"
+                    style="@style/football_lottery_dialog_qcbj"
+                    android:layout_marginLeft="0.5dp" />
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_jqs_3"
+                    style="@style/football_lottery_dialog_qcbj"
+                    android:layout_marginLeft="0.5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dip"
+                android:background="@color/border_color"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_jqs_4"
+                    style="@style/football_lottery_dialog_qcbj" />
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_jqs_5"
+                    style="@style/football_lottery_dialog_qcbj"
+                    android:layout_marginLeft="0.5dp" />
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_jqs_6"
+                    style="@style/football_lottery_dialog_qcbj"
+                    android:layout_marginLeft="0.5dp" />
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_jqs_7"
+                    style="@style/football_lottery_dialog_qcbj"
+                    android:layout_marginLeft="0.5dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 半全场 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/border_color"
+        android:orientation="horizontal"
+        android:padding="0.5dp" >
+
+        <TextView
+            android:id="@+id/txtView_football_dialog_bqc_desc"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:background="@color/color_football_bqc"
+            android:gravity="center"
+            android:textColor="@color/color_white"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dip"
+                android:background="@color/border_color"
+                android:orientation="horizontal"
+                android:paddingBottom="0.5dp" >
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_bqc_0"
+                    style="@style/football_lottery_dialog_qcbj" />
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_bqc_1"
+                    style="@style/football_lottery_dialog_qcbj"
+                    android:layout_marginLeft="0.5dp" />
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_bqc_2"
+                    style="@style/football_lottery_dialog_qcbj"
+                    android:layout_marginLeft="0.5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dip"
+                android:background="@color/border_color"
+                android:orientation="horizontal"
+                android:paddingBottom="0.5dp" >
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_bqc_3"
+                    style="@style/football_lottery_dialog_qcbj" />
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_bqc_4"
+                    style="@style/football_lottery_dialog_qcbj"
+                    android:layout_marginLeft="0.5dp" />
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_bqc_5"
+                    style="@style/football_lottery_dialog_qcbj"
+                    android:layout_marginLeft="0.5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dip"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_bqc_6"
+                    style="@style/football_lottery_dialog_qcbj" />
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_bqc_7"
+                    style="@style/football_lottery_dialog_qcbj"
+                    android:layout_marginLeft="0.5dp" />
+
+                <Button
+                    android:id="@+id/btnView_football_lottery_dialog_hhgg_bqc_8"
+                    style="@style/football_lottery_dialog_qcbj"
+                    android:layout_marginLeft="0.5dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

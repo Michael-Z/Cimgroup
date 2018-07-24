@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pull="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layout_bg_color"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/id_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/color_white"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="比赛事件"
+            android:textColor="@color/color_gray_secondary" />
+
+        <View style="@style/style_gray_horizontal_line" />
+        
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="主"
+                android:textColor="@color/color_gray_secondary" />
+
+            <View style="@style/style_gray_vertical_line" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="时间"
+                android:textColor="@color/color_gray_secondary" />
+
+            <View style="@style/style_gray_vertical_line" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="客"
+                android:textColor="@color/color_gray_secondary" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/score_game_listView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:cacheColorHint="@color/transparent"
+        android:divider="@android:color/transparent"
+        android:fadingEdge="none"
+        android:listSelector="@color/transparent"
+        android:scrollbars="none"
+        pull:ptrAnimationStyle="rotate" />
+
+    <GridView
+        android:id="@+id/gridview_score_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_white"
+        android:columnWidth="80dp"
+        android:gravity="left"
+        android:horizontalSpacing="2dp"
+        android:numColumns="4"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp" />
+
+</LinearLayout>

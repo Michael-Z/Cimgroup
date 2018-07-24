@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cvpager="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hall_background"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_simple_title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<!--         这个是tabs 标题栏 -->
+        <cn.com.cimgroup.view.Msg_ViewPagerIndicator
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/layout_bg_color"
+            android:orientation="horizontal"
+            cvpager:line_color="@color/color_red" />
+
+<!-- 		ViewPager是内容显示栏 -->
+        <cn.com.cimgroup.view.NoScrollViewPager
+            android:layout_below="@id/tabs"
+            android:id="@+id/view_pager"
+            android:background="@color/layout_bg_color"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+<!--         <TextView -->
+<!--             android:layout_width="match_parent" -->
+<!--             android:text="购买红包" -->
+<!--             android:visibility="gone" -->
+<!--             android:id="@+id/buy_red_packet" -->
+<!--             android:layout_alignParentBottom="true" -->
+<!--             android:layout_centerInParent="true" -->
+<!--             android:gravity="center" -->
+<!--             android:layout_height="wrap_content" /> -->
+        
+        <TextView
+        android:id="@+id/buy_red_packet"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/selector_bg_common"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:text="购买红包"
+        android:textColor="@color/color_white"
+        android:textSize="20sp" 
+        android:visibility="gone"/>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

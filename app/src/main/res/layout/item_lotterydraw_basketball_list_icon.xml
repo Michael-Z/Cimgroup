@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_icon"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_match_top"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="NBA"
+        android:textColor="@color/color_gray_secondary"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_bottom_left"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center_vertical|right"
+            android:text="301"
+            android:textColor="@color/color_gray_secondary"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_bottom_center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text=":"
+            android:textColor="@color/color_gray_secondary"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_bottom_right"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="1dp"
+            android:text="09:00"
+            android:textColor="@color/color_gray_secondary"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</LinearLayout>

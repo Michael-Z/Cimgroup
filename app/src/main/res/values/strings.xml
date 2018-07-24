@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 全局变量 -->
+    <string name="app_name">乐博彩票</string>
+    <string name="frament_tab_index0">购彩大厅</string>
+    <string name="frament_tab_index1">开奖</string>
+    <string name="frament_tab_index2">商城</string>
+    <string name="frament_tab_index3">我的</string>
+    <string name="app_exit_hint">再按一次退出乐博彩票</string>
+    <string name="server_num">010-65617701</string>
+
+    <!-- 主页 -->
+    <string name="lotteryhall_sign">乐米签到</string>
+    <string name="lotteryhall_info">新闻资讯</string>
+    <string name="lotteryhall_game">娱乐场</string>
+    <string name="lotteryhall_lottery">最近开奖</string>
+    <string name="lotteryhall_jczq">竞彩足球</string>
+    <string name="lotteryhall_dlt">大乐透</string>
+    <string name="lotteryhall_11x5">11选5</string>
+    <string name="lotteryhall_sfc">胜负彩</string>
+    <string name="lotteryhall_jqs">进球彩</string>
+    <string name="lotteryhall_bqc">半全场</string>
+    <string name="lotteryhall_qxc">七星彩</string>
+    <string name="lotteryhall_p3">排列3</string>
+    <string name="lotteryhall_p5">排列5</string>
+    <string name="lotteryhall_other">更多彩种</string>
+    <string name="lotteryhall_jclq">竞彩篮球</string>
+    <string name="lotteryhall_1czs">一场制胜</string>
+    <string name="lotteryhall_2x1">二选一</string>
+    <string name="lotteryhall_desc1">单关投注易中奖</string>
+    <string name="lotteryhall_desc2">真球迷都在玩</string>
+    <!-- <string name="lotteryhall_desc3">3元可中1600元</string> -->
+    <string name="lotteryhall_desc3">3米可中1600米</string>
+    <string name="lotteryhall_desc4">真球迷都在玩</string>
+    <string name="lotteryhall_desc5">10分钟一期</string>
+    <string name="lotteryhall_desc6">中奖如此简单</string>
+    <string name="lotteryhall_desc7">简单易中奖</string>
+    <string name="lotteryhall_desc8">可中10万大奖</string>
+    <string name="lotteryhall_desc9">冲击500万大奖</string>
+    <string name="lotteryhall_desc10">猜半场，超简单</string>
+    <string name="lotteryhall_desc11">进球进球，中奖不愁</string>
+    <string name="lotteryhall_desc12">丰富多彩</string>
+    <string name="lotteryhall_desc13">优惠多多</string>
+    <string name="lotteryhall_desc14">命中一场即可中奖</string>
+    <string name="lotteryhall_desc15">让中奖变得更简单</string>
+    <string name="lotteryhall_desc16">娱乐无极限 大奖等你拿</string>
+    <string name="hall_login_leftword">快乐购彩</string>
+    <string name="hall_login">登录</string>
+    <string name="hall_register">注册</string>
+    <string name="hall_bifen_desc1">比赛直播</string>
+    <string name="hall_bifen_desc2">关注比赛情况，实时看比赛</string>
+    <string name="hall_jiaodian_desc1">焦点比赛</string>
+    <string name="hall_jiaodian_desc2">日联杯</string>
+    <string name="hall_jiaodian_desc3">距截止剩：</string>
+    <string name="btn_back">返回</string>
+    <string name="hall_jiaodian_desc4">预计奖金：</string>
+    <string name="hall_jiaodian_desc5">最大奖金：</string>
+    <string name="hall_jiaodian_desc6">最高奖金：</string>
+    <string name="lottery_monday">周一</string>
+    <string name="lottery_tuesday">周二</string>
+    <string name="lottery_wednesday">周三</string>
+    <string name="lottery_thursday">周四</string>
+    <string name="lottery_friday">周五</string>
+    <string name="lottery_saturday">周六</string>
+    <string name="lottery_sunday">周日</string>
+    <string name="victory">胜</string>
+    <string name="draw">平</string>
+    <string name="negative">负</string>
+    <string name="betting">投注</string>
+    <string name="betting1">注 </string>
+    <string name="price_unit">元</string>
+    <string name="lemi_unit">米</string>
+    <string name="red_ge">个</string>
+    <!-- <string name="item_cart_num_money">%1$s注%2$s元</string> -->
+    <string name="item_cart_num_money">%1$s注%2$s米</string>
+    <string name="cart_add_bei">倍</string>
+    <string name="term_num">%1$s期</string>
+    <string name="record_tz_detail_qi">%1$s期</string>
+    <string name="hall_dlt_refresh">换一注</string>
+    <string name="hall_dlt_desc2">共计：</string>
+    <string name="hall_lottery_stop">暂停销售</string>
+    <string name="hall_lottery_jiajiang">千万加奖</string>
+    <string name="hall_lottery_huodong">劲爆活动</string>
+    <string name="hall_lottery_kaijiang">今日开奖</string>
+
+    <!-- 个人中心 -->
+    <string name="center_title">个人中心</string>
+    <string name="center_recharge">充 值</string>
+    <string name="center_outcash">提 现</string>
+    <string name="center_tzlist">我的投注</string>
+    <string name="center_lemi">乐米明细</string>
+    <string name="center_redpkglist">红包明细</string>
+    <string name="center_moneylist">资金明细</string>
+    <string name="center_info">个人信息</string>
+    <string name="center_nodata">未填写</string>
+    <string name="center_setpwd">密码修改</string>
+    <string name="center_push">消息推送</string>
+    <string name="center_voice">声音提示</string>
+    <string name="center_more">更多</string>
+    <string name="center_help">帮助信息</string>
+    <string name="center_check">检查版本</string>
+    <string name="center_check_word">当前版本V1.2.0</string>
+    <string name="center_about">关于我们</string>
+    <string name="center_outlogin">退出登录</string>
+    <string name="center_money_mi">乐米：</string>
+    <string name="center_buy_red_packet">购买红包</string>
+    <string name="center_convert_lemi">乐米兑换</string>
+    <string name="center_buy_lemi">购买乐米</string>
+    <string name="center_act">最新活动</string>
+
+    <!-- 账户明细 -->
+    <string name="account_time">时间：</string>
+    <string name="account_type">类型：</string>
+    <string name="account_money">金额：</string>
+    <string name="account_balance">余额：</string>
+    <string name="account_red_packet">红包</string>
+    <string name="account_state">状态：</string>
+    <string name="account_mess">备注：</string>
+    <string name="tradetype1">全部</string>
+    <string name="tradetype2">购彩</string>
+    <string name="tradetype3">派奖</string>
+    <string name="tradetype4">充值</string>
+    <string name="tradetype5">提现</string>
+    <string name="account_cash_state1">支付成功</string>
+    <string name="account_cash_state2">支付失败</string>
+    <string name="account_cash_state3">等待受理</string>
+
+    <!-- 投注记录 -->
+    <string name="tz_title_dg">代购</string>
+    <string name="tz_title_zh">追号</string>
+    <string name="tz_title_zj">中奖</string>
+    <string name="tz_select_all">全部彩种</string>
+    <string name="tz_select_football">竞彩足球</string>
+    <string name="tz_select_basketball">竞彩篮球</string>
+    <string name="tz_select_sfc">胜负彩</string>
+    <string name="tz_select_r9">任九场</string>
+    <string name="tz_select_jqs">进球彩</string>
+    <string name="tz_select_bqc">半全场</string>
+    <string name="tz_select_dlt">大乐透</string>
+    <string name="tz_select_p3">排列三</string>
+    <string name="tz_select_qxc">七星彩</string>
+    <string name="tz_select_p5">排列五</string>
+    <string name="tz_select_11y">十一运</string>
+    <string name="tz_select_11x5">11选5</string>
+    <string name="tz_item_mi">米</string>
+    <string name="tz_line_time"> 		%1$s&lt;br/>月&lt;br/>%2$s&lt;br/>日</string>
+
+    <!-- 投注详情 -->
+    <string name="tz_detail">投注详情</string>
+    <string name="tz_detail_plan_num">方案编号：</string>
+    <string name="tz_detail_tz">我投注</string>
+    <string name="tz_detail_time">认购时间  </string>
+    <string name="tz_detail_plan_content">方案内容</string>
+    <string name="tz_detail_zhui_content">追号信息</string>
+    <string name="tz_detail_win_num">开奖号码</string>
+    <string name="tz_detail_tz_bei">%1$s注%2$s倍</string>
+
+    <!-- 注册 -->
+    <string name="page_register">注册</string>
+    <string name="register_getcode">获取验证码</string>
+    <string name="register_write_phone">请输入手机号</string>
+    <string name="register_write_code">请输入验证码</string>
+    <string name="register_write_username">4-12个字符或下划线，不能全为数字</string>
+    <string name="register_error8">请输入用户名</string>
+    <string name="register_write_pwd">请输入6-16位字符</string>
+    <string name="register_error6">不能全部为数字</string>
+    <string name="register_error7">密码只能为6-16位字母、数字或下划线组合</string>
+    <string name="register_error0">手机号输入错误</string>
+    <string name="register_error1">请输入密码</string>
+    <string name="register_error2">密码6—16位，请重新输入</string>
+    <string name="register_error3">验证码不能为空</string>
+    <string name="register_error4">密码不能和用户名一样</string>
+    <string name="register_error5">验证码输入错误</string>
+    <string name="register_again">重新获取</string>
+    <string name="register_again_second">%1$ds</string>
+    <string name="register_write_card">请输入卡号</string>
+
+    <!-- 登录 -->
+    <string name="page_login">登录</string>
+    <string name="login_password_error">密码至少需要6位数字或者字母</string>
+    <string name="login_password_error1">请输入用户名/手机号</string>
+    <string name="login_rem">记住密码</string>
+    <string name="login_forgot">忘记密码？</string>
+    <string name="login_auto">自动登录</string>
+
+    <!-- 找回密码 -->
+    <string name="page_getbackpwd">忘记密码</string>
+    <string name="getbackpwd_submit">提 交</string>
+    <string name="getbackpwd_write_pwd">请输入密码</string>
+    <string name="getbackpwd_phone_error">输入手机号有误，请重新输入</string>
+    <string name="register_getback_pwd">请输入6-16位新密码</string>
+    <string name="getbackpwd_error0">请获取验证码</string>
+
+    <!-- 修改密码 -->
+    <string name="page_setpwd">修改密码</string>
+    <string name="setpwd_old">旧密码</string>
+    <string name="setpwd_new">新密码</string>
+    <string name="setpwd_new1">确定密码</string>
+    <string name="setpwd_write_old">请输入您的旧密码</string>
+    <string name="setpwd_write_new">请输入您的新密码</string>
+    <string name="setpwd_write_new1">请确认密码</string>
+    <string name="setpwd_explain">如有问题请及时与客服联系：&lt;font color="#f66248">&lt;a href="tel:010-65617701" style="text-decoration:none;">010-65617701&lt;/a>&lt;/font></string>
+    <string name="setpwd_error">确认密码与新密码不一致</string>
+    <string name="setpwd_error1">新旧密码输入相同，请重新输入</string>
+
+    <!-- 退出登录 -->
+    <string name="page_outlogin">退出登录成功</string>
+
+    <!-- 提现 -->
+    <string name="outcash_banknum">绑定的银行卡号：</string>
+    <string name="outcash_bankname">开户银行：</string>
+    <string name="outcash_allmoney">可提现金额：</string>
+    <string name="outcash_realname">持卡人姓名：</string>
+    <string name="outcash_money">提款金额：</string>
+    <string name="outcash_reminde">		提现说明：&lt;br/>
+		1、用户提现申请在当日16点前审核通过后当天到账。&lt;br/>
+		2、当日16点后提现审核通过则次日10点前到账。&lt;br/>
+		3、用户提现免手续费，日提现次数不可大于3次。&lt;br/>
+		4、用户单笔、单日提现额度均参考银行规范执行。&lt;br/>
+		5、如有任何疑问请在工作时间（8:00-20:00）联系客服。</string>
+    <string name="outcash_reminde1">	    6、客服电话：&lt;font color="#f66248">&lt;a href="tel:010-65617701">010-65617701&lt;/a>&lt;/font></string>
+    <string name="outcash_error">最低提现10元，请重新填写提现金额</string>
+    <string name="outcash_success">提现成功</string>
+    <string name="outcash_failure">提现失败</string>
+
+    <!-- 充值 -->
+    <string name="recharge_money">充值金额</string>
+    <string name="recharge_alipay_text1">支付宝快捷支付</string>
+    <string name="recharge_alipay_text2">支持支付宝金额和银行卡支付</string>
+    <string name="recharge_ump_text1">联众优势支付</string>
+    <string name="recharge_ump_text2">用科技创造人人乐享的生活方式</string>
+    <string name="recharge_upcash_text1">银联充值</string>
+    <string name="recharge_upcash_text2">支持信用卡，借记卡充值</string>
+    <string name="recharge_submit">立即充值</string>
+    <string name="recharge_error">最少充值10元</string>
+    <string name="recharge_xinyong">信用卡</string>
+    <string name="recharge_jieji">借记卡</string>
+    <string name="recharge_num">尾号%1$s</string>
+    <string name="recharge_reminde"> 		充值说明：&lt;br/>
+        1.单笔充值最低金额10元起 &lt;br/>
+		2.网银充值免手续费，充值成功后金额即时到账 &lt;br/>
+		3.充值金额仅可用于投注使用，且不可提现 &lt;br/>
+		4.如有任何疑问请在工作时间（8:00-20:00）联系客服 </string>
+    <string name="recharge_reminde1"> 电话：&lt;font color="#f66248">&lt;a href="tel:010-65617701">010-65617701&lt;/a>&lt;/font></string>
+
+    <!-- 个人信息 -->
+    <string name="page_usermanage">个人信息</string>
+    <string name="usermanage_username">  用户名  ：</string>
+    <string name="usermanage_phone">  手机号  ：</string>
+    <string name="usermanage_money">账户余额：</string>
+    <string name="usermanage_realname">真实姓名：</string>
+    <string name="usermanage_idcard">身份证号：</string>
+    <string name="usermanage_banknum">银行卡号：</string>
+    <string name="usermanage_bindbank">绑定银行卡</string>
+    <string name="usermanage_resetbank">修改银行卡</string>
+    <string name="usermanage_commitbank">提交</string>
+    <string name="usermanage_text">领取大奖的凭证，不可修改</string>
+    <string name="usermanage_explain">		温馨说明：&lt;br/>
+		1、银行卡是提现金额所到账户，必须是本人银行卡&lt;br/>
+		2、如有任何疑问请在工作时间（8:00-20:00）联系客服</string>
+    <string name="usermanage_explain_bind_card">		温馨提示：&lt;br/>
+		1、真实姓名、身份证号必须填写且必须是本人真实信息，一经填写无法自行修改，请认真填写&lt;br/>
+		2、如有任何疑问请在工作时间（8:00-20:00）联系客服</string>
+    <string name="usermanage_explain1">        3、客服电话：&lt;font color="#f66248">&lt;a href="tel:010-65617701">010-65617701&lt;/a>&lt;/font></string>
+    <string name="usermanage_error1">请输入真实姓名</string>
+    <string name="usermanage_error2">身份证号填写错误</string>
+    <string name="usermanage_error3">请输入身份证号</string>
+    <string name="usermanage_success">绑定成功</string>
+
+    <!-- 绑定银行卡 -->
+    <string name="bank_bankName">选择银行：</string>
+    <string name="bank_address">所在地：</string>
+    <string name="bank_name">开户姓名：</string>
+    <string name="bank_submit_bind">提交绑定</string>
+    <string name="bank_submit_set">提交修改</string>
+    <string name="bank_must">必填</string>
+    <string name="addcard_numerror">身份证号不正确</string>
+    <string name="addcard_bankcarderror">银行卡号输入有误</string>
+
+    <!-- 银联充值 -->
+    <string name="easylink_recharge">银联充值</string>
+    <string name="easylink_recharge_money">充值金额：</string>
+    <string name="easylink_city">开户省市：</string>
+    <string name="easylink_cardnum">请输入支付银行卡卡号</string>
+    <string name="easylink_veri_num">卡号：</string>
+    <string name="easylink_veri_type">卡类型：</string>
+    <string name="easylink_veri_phone">手机号：</string>
+    <string name="easylink_veri_phone_text">卡片在银行预留的手机号</string>
+    <string name="easylink_error">请选择卡类型</string>
+
+    <!-- 比分列表 -->
+    <string name="scorelist_noover">未结束</string>
+    <string name="scorelist_over">已结束</string>
+    <string name="scorelist_like">关注</string>
+    <string name="scorelist_list">列表</string>
+
+    <!-- 比分详情 -->
+    <string name="scoredetail_title">赔率详情</string>
+    <string name="scoredetail_game">赛事</string>
+    <string name="scoredetail_analysis">分析</string>
+    <string name="scoredetail_asia">亚盘</string>
+    <string name="scoredetail_europe">欧赔</string>
+
+    <!-- 竞彩足球 -->
+    <string name="football_item_twin">过关</string>
+    <string name="football_item_single">单关</string>
+    <string name="football_item_text1">历史交锋</string>
+    <string name="football_item_text2">近1次交锋，</string>
+    <string name="football_item_text3">近期战绩</string>
+    <string name="football_item_text4">主队</string>
+    <string name="football_item_text5">，客队</string>
+    <string name="football_item_text6">平均赔率</string>
+    <string name="football_item_text7">查看详细赛事分析  ></string>
+    <string name="scoredetail_analysis_string">近10次交战，%1$s &lt;font color="#fe6a6a">%2$s胜 &lt;/font>&lt;font color="#52bd4a">%3$s平 &lt;/font>&lt;font color="#33B5E5">%4$s负 &lt;/font>，进%5$s球，失%6$s球</string>
+    <string name="score_odds_asia">亚盘</string>
+    <string name="score_odds_europe">欧赔</string>
+    <string name="football_dialog_bqc_html">半&lt;br/>全&lt;br/>场</string>
+    <string name="football_dialog_bf_html">比&lt;br/>分</string>
+    <string name="football_dialog_zjqs_html">总&lt;br/>进&lt;br/>球</string>
+    <string name="lottery_finish">完成</string>
+    <string name="lottery_please_select">请选择</string>
+    <string name="lottery_selectcount">已选%1$s场</string>
+    <string name="lottery_selectcount_one">已选一场,还差一场</string>
+    <string name="lottery_match_choose">请至少选择一种赛事</string>
+    <!-- <string name="lottery_select">共0注%1$s倍0元</string> -->
+    <string name="lottery_select">共0注%1$s倍0米</string>
+    <string name="lottery_match_choose1">至少选择两场比赛</string>
+    <string name="lottery_match_choose2">至少选择一场比赛</string>
+
+    <!-- 投注 -->
+    <string name="lottery_betting_success">恭喜您，支付成功</string>
+    <string name="lottery_betting_goon">继续购彩</string>
+    <string name="lottery_betting_info">查看投注记录</string>
+    <string name="lottery_betting_makesure">竞彩足球确认投注</string>
+    <string name="lottery_betting_baseket_makesure">竞彩篮球确认投注</string>
+    <string name="lottery_betting_2x1_makesure">二选一确认投注</string>
+    <string name="lottery_betting_1czs_makesure">一场制胜确认投注</string>
+    <!-- <string name="num_money"> %1$s注*%2$s倍  %3$s元</string> -->
+    <string name="num_money"> %1$s注*%2$s倍  %3$s米</string>
+    <string name="lottery_betting_text">大乐透\n投注金额:</string>
+    <string name="lottery_betting_jczq_text">竞彩足球\n投注金额:</string>
+    <string name="tzlist_zhong_text">&lt;font color="#fe6a6a">%1$s&lt;/font></string>
+    <string name="tzlist_zhong_text1">&lt;font color="#33B5E5">%1$s&lt;/font></string>
+    <string name="tzdetail_zhui_money">投注%1$s米</string>
+    <string name="tzdetail_football_br">&lt;br></string>
+    <string name="tzdetail_football_wait">待定</string>
+
+    <!-- 大乐透 -->
+    <string name="lottery_dlt">大乐透</string>
+    <string name="lottery_dlt_tz">大乐透投注</string>
+    <string name="lottery_dlt_dt_tz">胆拖投注</string>
+    <string name="lottery_dlttz_buytype">大乐透第%1$s期%2$s方案</string>
+    <string name="lottery_dlt_redDan">红色胆码</string>
+    <string name="lottery_dlt_redDan_text">请选1-4个号码</string>
+    <string name="lottery_dlt_redTuo">红色拖码</string>
+    <string name="lottery_dlt_redTuo_text">请选2-18个号码</string>
+    <string name="lottery_dlt_buleDan">蓝球胆码区</string>
+    <string name="lottery_dlt_buleDan_text">请选0-1个号码</string>
+    <string name="lottery_dlt_buleTuo">蓝球拖码区</string>
+    <string name="lottery_dlt_buleTuo_text">请至少选2个号码</string>
+    <string name="lottery_dlt_red_tv1">红球</string>
+    <string name="lottery_dlt_red_tv1_text">请选5-18个号码</string>
+    <string name="lottery_dlt_red_jixuan">机选前区</string>
+    <string name="lottery_dlt_red_jixuan_num">5个</string>
+    <string name="lottery_dlt_bule_tv1">蓝球</string>
+    <string name="lottery_dlt_bule_tv1_text">至少选2个号码</string>
+    <string name="lottery_dlt_bule_tv1_text1">至少选1个</string>
+    <string name="lottery_dlt_bule_jixuan">机选后区</string>
+    <string name="lottery_dlt_bule_jixuan_num">2个</string>
+    <string name="lottery_dlt_switch">普通选号</string>
+    <string name="lottery_dlt_switch_dt">胆拖选号</string>
+    <string name="lottery_dlt_pt">普通</string>
+    <string name="lottery_dlt_dt">胆拖</string>
+    <string name="lottery_dlt_red">红球至少为5个</string>
+    <string name="lottery_dlt_blue">蓝球至少为2个</string>
+    <string name="lottery_dlt_red_dm">红球胆码至少1个</string>
+    <string name="lottery_dlt_red_dmtm">红球胆码拖码至少为6个</string>
+    <string name="lottery_dlt_blue_dm">蓝球胆码必须1个</string>
+    <string name="lottery_dlt_blue_tm">蓝球拖码至少2个</string>
+    <!-- <string name="lottery_money_than">单注投注金额不能超过20000元</string> -->
+    <string name="lottery_money_than">单注投注金额不能超过1000000米</string>
+    <string name="lottery_diff_tm">不可与拖码相同</string>
+    <string name="lottery_diff_dm">不可与胆码相同</string>
+    <string name="lottery_red_most18">红球最多18个</string>
+    <string name="lottery_red_dm_most4">红球胆码最多4个</string>
+    <string name="lottery_red_dm_most18">红球拖码最多18个</string>
+    <string name="lottery_blue_only1">蓝球胆码只能一个</string>
+    <string name="lottery_blue_most11">蓝球拖码最多11个</string>
+    <string name="lottery_begin_sell">第%1$s期销售中</string>
+    <string name="lottery_end_sell">第%1$s期已结期</string>
+    <string name="touzhu_hint">至少选择%1$s个红球和%2$s个蓝球</string>
+    <!-- <string name="lottery_money"> %1$s注%2$s元</string> -->
+    <string name="lottery_money"> %1$s注%2$s米</string>
+    <string name="lottery_betting_tj1">至少选择6个红球和2个蓝球</string>
+    <string name="lottery_betting_tj2">至少选择1注</string>
+    <string name="lottery_betting_tj3">请至少选择1注号码</string>
+    <string name="lottery_11x5_selectnum">选号</string>
+    <string name="lottery_11x5_tenthousand">万位</string>
+    <string name="lottery_11x5_thousand">千位</string>
+    <string name="lottery_11x5_hundred">百位</string>
+    <string name="lottery_qxc_sv_hint">每位至少选1个号码</string>
+    <string name="lottery_select_way">请选择投注类型</string>
+    <string name="lottery_qxc_sv">至少选1个号码</string>
+
+    <!-- 排列3 -->
+    <string name="lottery_p3">排列3</string>
+    <string name="lottery_p3_tz">排列3投注</string>
+    <string name="lottery_p3_heavynum">重号</string>
+    <string name="lottery_p3_singlenum">单号</string>
+    <string name="lottery_p3_pop_zx">直选</string>
+    <string name="lottery_p3_pop_z3">组三</string>
+    <string name="lottery_p3_pop_z6">组六</string>
+    <string name="lottery_p3_pop_zxhz">组选和值</string>
+
+    <!--
+    <string name="lottery_p3_zx">直选复式</string>
+	<string name="lottery_p3_zxds">直选单式</string>
+	<string name="lottery_p3_zxhz">直选和值</string>
+	<string name="lottery_p3_z3">组三复式</string>
+	<string name="lottery_p3_z3ds">组三单式</string>
+	<string name="lottery_p3_z3hz">组三和值</string>
+	<string name="lottery_p3_z6">组六复式</string>
+	<string name="lottery_p3_z6_ds">组六单式</string>
+	<string name="lottery_p3_z6hz">组六和值</string>
+    -->
+    <string name="lottery_p3_zx">直选普通投注</string>
+    <string name="lottery_p3_zxds">直选普通投注</string>
+    <string name="lottery_p3_zxhz">直选和值投注</string>
+    <string name="lottery_p3_z3">组三普通投注</string>
+    <string name="lottery_p3_z3ds">组三普通投注</string>
+    <string name="lottery_p3_z3hz">组三普通投注</string>
+    <string name="lottery_p3_z6">组六普通投注</string>
+    <string name="lottery_p3_z6_ds">组六普通投注</string>
+    <string name="lottery_p3_z6hz">组六普通投注</string>
+    <string name="lottery_p3_zuxhz">组选和值投注</string>
+    <string name="lottery_p3_ten">十位</string>
+    <string name="lottery_p3_Bits">个位</string>
+    <string name="lottery_p3_init">每位至少选1个号，按位猜对开奖号</string>
+    <string name="lottery_p3_zxtj">每位至少选1个号，按位猜对开奖号即中</string>
+    <string name="lottery_p3_zhixhztj">至少选择1个号码，猜对开奖和值即中</string>
+    <string name="lottery_p3_z3tj">至少选2个号，猜对开奖号(顺序不限)即中</string>
+
+    <!-- <string name="lottery_p3_zxhztj">至少选择1个号码，猜对组三和值中&lt;font color="#fe6a6a">%1$s元&lt;/font>，猜对组六和值中&lt;font color="#fe6a6a">%2$s元&lt;/font></string> -->
+    <string name="lottery_p3_zxhztj">至少选择1个号码，猜对组三和值中&lt;font color="#fe6a6a">%1$s米&lt;/font>，猜对组六和值中&lt;font color="#fe6a6a">%2$s米&lt;/font></string>
+    <string name="lottery_p3_z6tj">至少选3个号，猜对开奖号(顺序不限)即中</string>
+    <string name="lottery_p3_hz_must">至少选1个和值</string>
+    <string name="lottery_p3_z3_must">至少选%1$s个</string>
+    <string name="lottery_p3tz_buytype">排列3第%1$s期%2$s方案</string>
+
+    <!-- 排列5 -->
+    <string name="lottery_p5">排列5</string>
+    <string name="lottery_p5_tz">排列5投注</string>
+    <string name="lottery_p5_init">每位至少选1个号，按位猜对开奖号即中</string>
+    <string name="lottery_p5tz_buytype">排列5第%1$s期%2$s方案</string>
+
+    <!-- 七星彩 -->
+    <string name="lottery_qxc">七星彩</string>
+    <string name="lottery_qxc_tz">七星彩投注</string>
+    <string name="lottery_qxctz_buytype">七星彩第%1$s期%2$s方案</string>
+    <string name="lottery_qxc_1w">第一位</string>
+    <string name="lottery_qxc_2w">第二位</string>
+    <string name="lottery_qxc_3w">第三位</string>
+    <string name="lottery_qxc_4w">第四位</string>
+    <string name="lottery_qxc_5w">第五位</string>
+    <string name="lottery_qxc_6w">第六位</string>
+    <string name="lottery_qxc_7w">第七位</string>
+    <string name="price_ten_thousand">万</string>
+    <string name="server_phone">010-65617701</string>
+    <string name="server_mail">kefu@cimgroup.cn</string>
+    <string name="server_tenc">3203989391</string>
+    <string name="copy_succ">已复制到粘贴板</string>
+    <string name="red_packet_notice"> 		说明：&lt;br/>
+        1、购买的红包购彩全场通用。&lt;br/>
+		2、红包不可以提现。&lt;br/>
+		3、购买的红包永久有效。 &lt;br/>
+		&lt;font color="#f66248">4、目前是彩票停售期，您购买的红包无法用于虚拟购彩，暂停红包销售。&lt;/font> &lt;br/>
+		如有问题请联系本站客服：&lt;font color="#f66248">&lt;a href="tel:010-65617701">010-65617701&lt;/a>&lt;/font> &lt;br/></string>
+    <string name="crash_count">账户余额</string>
+    <string name="lemi_count">乐米账户</string>
+    <string name="order_count">订单金额</string>
+    <string name="free_count">红包抵扣</string>
+    <string name="real_pay">实际支付</string>
+    <string name="top_up_commit">立即支付</string>
+    <string name="user_count">余额:&#160;%1$s元&#160;&#160;红包%2$s个:&#160;%3$s元</string>
+    <string name="user_convert_count">余额:&#160;%1$s元&#160;&#160;乐米:&#160;%2$s米</string>
+    <string name="redpkg_explain">
+<![CDATA[
+         <h2>购买的红包</h2>
+          <p>1、购买的红包为全场通用红包可当现金使用，不可提现。</p>
+          <p>2、购买的红包叠加为一个红包，无有效期限制。</p>
+          <p>3、购买的红包可重复使用。</p>
+          <h2>兑换的红包</h2>
+          <p>1、兑换的红包都为通用红包，全场购彩使用。不可提现</p>
+          <p>2、兑换的红包有效期为30天。</p>
+          <p>3、兑换的红包只能使用一次，不可重复使用。</p>
+          <h2>赠送和红包</h2>
+          <p>1、赠送的红包为指定类型，红包 类型有彩种专用红包、全场通用红包。</p>
+          <p>2、赠送的红包有效期时间不定。</p>
+          <p>3、赠送的红包只能使用一次。</p>
+
+          注：红包不可再购买红包，不可购买乐米！
+
+       ]]>
+    </string>
+
+    <!-- exception error -->
+    <string name="exception_net_error">网络错误，请检查网络并重试</string>
+    <string name="exception_io_error">网络异常，数据获取失败</string>
+    <string name="exception_data_error">数据获取失败</string>
+    <string name="exception_json_error">数据异常，请稍后重试</string>
+    <string name="no_data_error">没有更多数据啦</string>
+    <string name="no_data_error1">近3个月内无数据</string>
+    <string name="addcard_bank">选择银行</string>
+    <string name="addcard_bankaddress">银行所在地：</string>
+    <string name="addcard_province">选择省</string>
+    <string name="addcard_city">选择市</string>
+    <string name="login_name">用户名/手机号</string>
+    <string name="login_password">请输入密码</string>
+    <string name="login_inputcode">输入验证码</string>
+    <string name="login_login">登 录</string>
+    <string name="login_register">注 册</string>
+    <string name="login_phonetext">客服电话：&lt;font color="#f66248">&lt;a href="tel:010-65617701">010-65617701&lt;/a>&lt;/font></string>
+    <string name="cart_add_zx">增加自选号码</string>
+    <string name="cart_add_jx">增加机选1注</string>
+    <string name="cart_add_tou">投</string>
+    <string name="cart_add_zhui">追</string>
+    <string name="cart_add_qi">期</string>
+    <string name="cart_hemai_tv">发起合买</string>
+    <string name="cart_buy_tv">投  注</string>
+    <string name="lotterybid_cart_chuan_type">过关类型</string>
+    <string name="lotterybid_cart_win_price">最大理论奖金：</string>
+    <string name="register_agree">我已阅读并同意</string>
+    <string name="register_doc">《用户服务规则》</string>
+    <string name="register_submit">立即注册</string>
+    <string name="football_match_choose">赛事选择</string>
+    <string name="all_select">全选</string>
+    <string name="all_other_select">反选</string>
+    <string name="frament_football_fivegame">五大联赛</string>
+    <string name="btn_ok">确认</string>
+    <string name="btn_canl">取消</string>
+    <string name="btn_save">保存</string>
+    <string name="btn_no_save">不保存</string>
+    <string name="btn_lottery_clear">清除</string>
+    <string name="btn_lottery_go">去看看</string>
+    <string name="btn_lottery_back">残忍退出</string>
+    <string name="btn_lottery_noback">继续投注</string>
+    <string name="btn_upgrade">现在升级</string>
+    <string name="btn_upgrade_canl">下次再说</string>
+    <string name="basketballlottery_customerwins">客胜</string>
+    <string name="basketballlottery_customerfail">客负</string>
+    <string name="basketballlottery_primarywins">主胜</string>
+    <string name="basketballlottery_primaryfail">主负</string>
+    <string name="basketballlottery_sqt">胜其他</string>
+    <string name="basketballlottery_pqt">平其他</string>
+    <string name="basketballlottery_fqt">负其他</string>
+    <string name="include_lottery_issue">期号获取中&#8230;</string>
+    <string name="lottery_data_loading">数据加载中&#8230;</string>
+    <string name="lottery_tz_loading">投注中&#8230;</string>
+    <string name="gobetting">去 投 注</string>
+    <string name="football_open_click">点击展开投注选项</string>
+    <string name="footballlottery_all_select">展开全部</string>
+    <string name="record_tz_detail_item_qc_xh1">序号</string>
+    <string name="record_tz_detail_item_qc_num">号码</string>
+    <string name="record_tz_detail_item_qc_play">玩法</string>
+    <string name="record_tz_detail_item_qc_mult1">倍数</string>
+    <string name="record_tz_detail_item_qc_issue">期次</string>
+    <string name="record_tz_detail_item_qc_status">状态</string>
+    <string name="record_tz_detail_item_qc_win">中奖情况</string>
+    <string name="popwindow_lotterybid_more0">我的投注</string>
+    <string name="popwindow_lotterybid_more1">比分直播</string>
+    <string name="popwindow_lotterybid_more2">开奖信息</string>
+    <string name="popwindow_lotterybid_more3">玩法说明</string>
+    <string name="pop_draw">开奖信息</string>
+    <string name="pop_zst">走势图表</string>
+    <string name="pop_missing_open">显示遗漏</string>
+    <string name="pop_missing_close">关闭遗漏</string>
+    <string name="pop_play">玩法介绍</string>
+    <string name="layout_shake">摇一摇机选</string>
+    <string name="send_success">发送成功</string>
+    <string name="all"> 共</string>
+    <string name="lottery_football">竞彩足球</string>
+    <string name="prompt">提示</string>
+    <string name="register_agree_law">请您先同意法律声明后再试！</string>
+    <!-- <string name="num_money1">%1$s注， %2$s元</string> -->
+    <string name="num_money1">%1$s注， %2$s米</string>
+    <string name="cart_max_mult">最大%1$s倍</string>
+    <string name="cart_least_mult">最小%1$s倍</string>
+    <string name="cart_max_qi">最大%1$s期</string>
+    <string name="cart_least_qi">最小%1$s期</string>
+    <string name="cart_null_hint">没有选择的号码，去选号</string>
+    <string name="cart_null_buy_hint">购物车为空，不能购买</string>
+    <string name="cart_out_tz">需要保存订单不？</string>
+    <string name="lottery_content">刚才保存的订单还在哦~</string>
+    <string name="lottery_bid_content">退出就不能保存订单啦！</string>
+    <string name="cart_btn_clear">清空提示</string>
+    <string name="btn_clear">清空</string>
+    <string name="cart_btn_sure_clear">确定清空列表吗？</string>
+    <string name="lottery_football_must">最多可选8场比赛</string>
+    <string name="record_tz_detail_failure">获取订单详情失败</string>
+    <string name="commit_pay_error">不能重复提交订单</string>
+
+    <!--
+    <string name="lottery_dlt_zx">复式投注</string>
+	<string name="lottery_dlt_zxds">单式投注</string>
+    -->
+    <string name="lottery_dlt_zx">普通投注</string>
+    <string name="lottery_dlt_zxds">普通投注</string>
+    <string name="football_chuan">串</string>
+    <string name="card_errorinfo0">请选择银行！</string>
+    <string name="card_errorinfo1">请选择银行所在省份</string>
+    <string name="card_errorinfo2">请选择银行所在市</string>
+    <string name="card_errorinfo3">请输入正确的银行卡号！</string>
+    <string name="card_errorinfo4">请输入真实姓名！</string>
+
+    <string-array name="one_week">
+        <item>周日</item>
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+    </string-array>
+
+    <string name="lottery_day">天</string>
+    <string name="lottery_hour">时</string>
+    <string name="lottery_minute">分</string>
+    <string name="lottery_second">秒</string>
+    <string name="hello">Hello World, JPush!</string>
+    <string name="tag_hint">Tag为大小写字母，数字，下划线,中文， 多个用以逗号分隔</string>
+    <string name="alias_hint">Alias为大小写字母，数字，下划线</string>
+    <string name="style_hint">style为数字</string>
+    <string name="error_style_empty">style不能为空</string>
+    <string name="error_alias_empty">alias不能为空</string>
+    <string name="error_tag_empty">tag不能为空</string>
+    <string name="error_tag_gs_empty">格式不对</string>
+    <string name="error_network">网络连接异常,初始化失败 请检查网络！</string>
+    <string name="logining">程序在后台执行, 请查看日志！</string>
+    <string name="setting_su">设置成功</string>
+    <string name="feature_disclaimer">法律声明</string>
+    <string name="feature_guide">购彩指南</string>
+    <string name="feature_company_profile">公司简介</string>
+    <string name="feature_play_description">玩法说明</string>
+    <string name="setnewpwd_reminde_string">&lt;font color="#C61414">温馨提示： &lt;/font>&lt;font color="#6C7477">如有问题请及时与客服联系:010&#8211;65617701&lt;/font></string>
+    <string name="football_fivegame_yc">英超</string>
+    <string name="football_fivegame_xj">西甲</string>
+    <string name="football_fivegame_yj">意甲</string>
+    <string name="football_fivegame_dj">德甲</string>
+    <string name="football_fivegame_fj">法甲</string>
+    <string name="football_dialog_spf_desc">胜平负/让球</string>
+    <string name="football_dialog_spf1_desc">胜平负</string>
+    <string name="football_dialog_rspf_desc">让球胜平负</string>
+    <string name="football_dialog_bqc_desc">半全场</string>
+    <string name="football_dialog_bf_desc">比分</string>
+    <string name="football_dialog_jqs_desc">进球彩</string>
+    <string name="football_dialog_zjqs_desc">总进球数</string>
+    <string name="football_dialog_hhgg_desc">混合</string>
+    <string name="oldfootball_dialog_desc">老足彩</string>
+    <string name="oldfootball_dialog_spf_desc">胜负彩</string>
+    <string name="oldfootball_dialog_spf_14_desc">十四场</string>
+    <string name="oldfootball_dialog_spf_9_desc">任九场</string>
+
+    <string-array name="football_state_array">
+        <item>胜胜</item>
+        <item>胜平</item>
+        <item>胜负</item>
+        <item>平胜</item>
+        <item>平平</item>
+        <item>平负</item>
+        <item>负胜</item>
+        <item>负平</item>
+        <item>负负</item>
+    </string-array>
+    <string-array name="football_state_dx">
+        <item>大</item>
+        <item>小</item>
+    </string-array>
+    <string-array name="football_state_spf">
+        <item>胜</item>
+        <item>平</item>
+        <item>负</item>
+    </string-array>
+    <string-array name="football_state_chuan1num">
+        <item>2串1</item>
+        <item>3串1</item>
+        <item>4串1</item>
+        <item>5串1</item>
+        <item>6串1</item>
+        <item>7串1</item>
+        <item>8串1</item>
+    </string-array>
+    <string-array name="football_state_chuan2num">
+        <item>2串1</item>
+        <item>3串1</item>
+        <item>3串3</item>
+        <item>3串4</item>
+        <item>4串1</item>
+        <item>4串4</item>
+        <item>4串5</item>
+        <item>4串6</item>
+        <item>4串11</item>
+        <item>5串1</item>
+        <item>5串5</item>
+        <item>5串6</item>
+        <item>5串10</item>
+        <item>5串16</item>
+        <item>5串20</item>
+        <item>5串26</item>
+        <item>6串1</item>
+        <item>6串6</item>
+        <item>6串7</item>
+        <item>6串15</item>
+        <item>6串20</item>
+        <item>6串22</item>
+        <item>6串35</item>
+        <item>6串42</item>
+        <item>6串50</item>
+        <item>6串57</item>
+        <item>7串1</item>
+        <item>7串7</item>
+        <item>7串8</item>
+        <item>7串21</item>
+        <item>7串35</item>
+        <item>7串120</item>
+        <item>8串1</item>
+        <item>8串8</item>
+        <item>8串9</item>
+        <item>8串28</item>
+        <item>8串56</item>
+        <item>8串70</item>
+        <item>8串247</item>
+    </string-array>
+
+    <string name="oldfootball_item_14">十四场</string>
+    <string name="oldfootball_item_9">任九场</string>
+    <string name="oldfootball_most_bei">最高999倍</string>
+    <string name="oldfootball_stop">截止</string>
+    <string name="oldfootball_before_qi">前一期</string>
+    <string name="oldfootball_current_qi">当前期</string>
+    <string name="oldfootball_after_qi">预售期</string>
+    <string name="lotterydraw_list_text">开奖列表</string>
+    <string name="lotterydraw_detail_text">期次详情</string>
+    <string name="lottery_sell">本期销售</string>
+    <string name="lottery_pgbalance">奖池奖金</string>
+    <string name="lottery_award_leve">奖级</string>
+    <string name="lottery_award_money">奖金</string>
+    <string name="lottery_winnumber">注数</string>
+    <string name="sign_reminde"> 		第一天登录，+10乐米，第二天登录，+20乐米 …… 第七天登录，+70乐米，之后每天登录，+70乐米。登录必须连续，出现断点将从第一天开始，按月计算。</string>
+	<string name="question_reminde">奖金计算方式：乐米奖励 = 投注乐米 + 奖池分得乐米</string>
+    <!-- 秋风添加 -->
+    <string name="pulltorefresh">下拉刷新...</string>
+    <string name="pulltoloading">上拉加载...</string>
+    <string name="lastupdate">未刷新新数据</string>
+    <string name="other_load_title">其他登陆方式</string>
+    <string name="improve_info">完善信息</string>
+    <string name="improve_info_toast1">为保障中大奖之后我们能第一时间通知您，</string>
+    <string name="improve_info_toast2">请您填写一下资料，谢谢配合!</string>
+    <string name="big">大分</string>
+    <string name="small">小分</string>
+    <string name="basketball_match_sf">胜负/让分</string>
+    <string name="basketball_match_sfc">胜分差</string>
+    <string name="basketball_match_dxf">大小分</string>
+    <string name="basketball_match_hhgg_rsf_sp">&lt;font color="#52bd4a">(%1$s) &lt;/font></string>
+    <string name="wechat_pay_title">微信支付</string>
+    <string name="center_push_win">中奖推送</string>
+    <string name="center_push_sfc">胜负彩开奖</string>
+    <string name="center_push_dlt">大乐透开奖</string>
+    <string name="center_push_qxc">七星彩开奖</string>
+    <string name="center_push_p3">排列三开奖</string>
+    <string name="center_push_p5">排列五开奖</string>
+    <string name="center_push_zhuistop">追号停止</string>
+    <string name="center_push_like">关注的比赛</string>
+    <!-- 消除警告，可忽略 -->
+    <string name="d">图片描述</string>
+    
+    <!-- 购物车，订单详情 commit_pay -->
+    <string name="commit_pay_total_money_text">订单总计金额</string>
+    <string name="commit_pay_redpacket_envelope">红包抵扣：-0.0元</string>
+    <string name="commit_pay_total_money">88.88元</string>
+    <string name="commit_pay_balance">余额支付</string>
+    <string name="commit_pay_redpacket">红包支付</string>
+
+    <!-- 购物车，订单详情 confirm_pay -->
+    <string name="confirm_pay_recharge">充值</string>
+    <string name="confirm_pay_redpacket">红包一个</string>
+
+    <!-- easylink 银联充值 -->
+    <string name="easylink_bank_minum_recharge">最少充值10元</string>
+    <string name="easylink_bank_debit_card">借记卡</string>
+    <string name="easylink_bank_credit_card">信用卡</string>
+
+    <!-- 找回密码 -->
+    <string name="find_password_text">找回密码</string>
+    <string name="find_password_tel_number">手机号:</string>
+    <string name="find_password_tel_number_sign">请输入注册的手机号</string>
+    <string name="find_password_identifying_code">验证码:</string>
+    <string name="find_password_identifying_code_sign">请填写验证码</string>
+    <string name="find_password_question_sign">如有问题请及时与客服联系:</string>
+
+    <!-- activity_game_flop 翻牌游戏 -->
+    <string name="game_flop_flop_text">翻牌</string>
+    <string name="game_flop_user_defined_text">自定义</string>
+    <string name="game_flop_join_betting">参与投注：</string>
+    <string name="game_flop_instruction">说明  ?</string>
+    <string name="game_flop_win_twice">恭喜！！ 连赢两次 ~</string>
+    <string name="game_flop_win_account">获取：+1000乐米</string>
+
+    <!-- activity_game_guess_match -->
+    <string name="game_guess_match_game_guess">比赛竞猜</string>
+    <string name="game_guess_match_guess_record">竞猜记录</string>
+    <string name="game_guess_match_my_lemi">我的乐米：1000</string>
+    <string name="game_guess_match_ranking_list">排行榜</string>
+    
+    <!-- activity_scroeList pupupwindow -->
+    <string name="scorelist_title_match">请选择赛事类型</string>
+    <string name="scorelist_title_bet">请选择投注类型</string>
+
+</resources>

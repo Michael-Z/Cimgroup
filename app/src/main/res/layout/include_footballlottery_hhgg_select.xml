@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/textView_football_hhgg_text"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/selector_bg_footballlottery_click_open"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@color/selector_bg_footballlottery_click_open"
+        android:text="@string/football_open_click"
+        android:textSize="14sp" />
+
+</LinearLayout>

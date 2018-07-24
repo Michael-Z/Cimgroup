@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 无网、断网 -->
+    <string name="nodata_no_net">网络不给力</string>
+    <string name="nodata_no_net1">啊哦~多么痛的领悟~</string>
+    <string name="nodata_no_net_btn">重新加载</string>
+    
+    <!-- 无内容-投注记录、资金明细、红包明细、 -->
+    <string name="nodata_no_list">暂无相关记录</string>
+    <string name="nodata_no_list1">大奖不等人，速去购彩~</string>
+    <string name="nodata_no_list_btn1">立即购彩</string>
+    
+    <!-- 无内容-兑换记录、我的红包 -->
+    <string name="nodata_no_list2">礼品多多，有米就要任性~</string>
+    <string name="nodata_no_list_btn2">前往商城</string>
+    
+    <!-- 无内容-排行榜 -->
+    <string name="nodata_no_list_btn3">参与竞猜</string>
+    
+    <!-- 无内容-开奖详情 -->
+    <string name="nodata_no_list_btn4">数据统计中！过会再来吧~</string>
+    
+    <!-- 无内容-赛事关注 -->
+    <string name="nodata_no_list_btn5">还没有关注比赛哦~</string>
+    
+    <!-- 无内容-活动 -->
+    <string name="nodata_no_list_btn6">还没有最新活动哦~</string>
+    
+    <!-- 无内容-消息 -->
+    <string name="nodata_no_list_btn7">还没有收到消息哦~</string>
+    
+    <!-- 无内容-竞技彩投注页、比分直播、娱乐场 -->
+    <string name="nodata_no_list3">未发布赛事！过会再来吧~</string>
+    
+    <string name="nodata_no_list4">商品去哪啦？过会再来吧~</string>
+    
+    <string name="nodata_no_list5">比赛尚未开始</string>
+    
+    <string name="nodata_no_list6">赛事直播中</string>
+    
+    <string name="nodata_no_list7">还没有相关内容哦~</string>
+    
+    <string name="nodata_no_list8">比赛结束啦~</string>
+    
+    <!-- 服务器异常 -->
+    <string name="nodata_exception">迷路啦~过会再来吧~</string>
+</resources>

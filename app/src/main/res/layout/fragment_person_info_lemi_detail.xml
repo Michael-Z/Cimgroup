@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/id_lemi_detail_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/layout_bg_color"
+        android:dividerHeight="5dp" >
+    </ListView>
+    <View 
+        android:id="@+id/id_bottom_line"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:visibility="gone"
+        android:background="@color/layout_bg_color"
+        />
+    
+    <ViewStub 
+        android:id="@+id/id_empty_viewstub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:layout="@layout/layout_loading_empty"
+        />
+
+</LinearLayout>

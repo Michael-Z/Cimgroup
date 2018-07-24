@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_lotterydraw_item_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/txtView_lattelylotterydraw_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textColor="@color/color_gray_secondary"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtView_lattelylotterydraw_term"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/txtView_lattelylotterydraw_title"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dip"
+                android:textColor="@color/color_gray_secondary"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txtView_lattelyotterydraw_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="8dp"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/color_gray_indicator"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <cn.com.cimgroup.view.FlowLayout
+            android:id="@+id/cvView_lattelylotterydraw_flow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            app:debugDraw="false"
+            app:horizontalSpacing="5dp"
+            app:orientation="horizontal"
+            app:verticalSpacing="5dp" >
+        </cn.com.cimgroup.view.FlowLayout>
+    </LinearLayout>
+
+</LinearLayout>

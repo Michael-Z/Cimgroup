@@ -1,0 +1,326 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/id_header"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:color/black" >
+
+            <RelativeLayout
+                android:id="@+id/id_back"
+                android:layout_width="50dp"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/icon_back" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="幸运大转盘"
+                android:textColor="@color/color_white"
+                android:textSize="18sp" />
+
+            <RelativeLayout
+                android:id="@+id/id_share"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/e_ui_shape" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:orientation="vertical"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:id="@+id/ll_content_above"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/luckypan_background"
+                android:orientation="vertical" >
+
+                <!-- 音乐 + 乐米数  + 自定义转盘 -->
+
+                <RelativeLayout
+                    android:id="@+id/rl_lemi_sound_pan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/iv_sound"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/luckypan_sound" />
+
+                    <!-- 这个父布局的大小由iv_lemi_bg决定  而iv_lemi_bg的大小由Activity中测量决定 为 W115 H28 -->
+
+                    <RelativeLayout
+                        android:id="@+id/tv_buy_lemi"
+                        android:layout_width="120dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp" >
+
+                        <ImageView
+                            android:id="@+id/iv_lemi_bg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:gravity="center"
+                            android:src="@drawable/money_lemi" />
+
+                        <TextView
+                            android:id="@+id/tv_money_show"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerInParent="true"
+                            android:layout_marginRight="20dp"
+                            android:gravity="center"
+                            android:text="99999"
+                            android:textColor="@color/color_white"
+                            android:textSize="10sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="5dp"
+                            android:src="@drawable/luckypan_buy_lemi" />
+                    </RelativeLayout>
+
+                    <cn.com.cimgroup.view.LuckyPanRelativeLayout
+                        android:id="@+id/myLuckyPan"
+                        android:layout_width="match_parent"
+                        android:layout_height="340dp" >
+                    </cn.com.cimgroup.view.LuckyPanRelativeLayout>
+                </RelativeLayout>
+
+                <!-- 音乐 + 乐米数 + 自定义转盘结束 -->
+
+
+                <!-- 底部一系列按钮的整体布局 -->
+
+                <LinearLayout
+                    android:id="@+id/ll_content_below"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/ll_big_or_small"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal" >
+
+                        <LinearLayout
+                            android:id="@+id/ll_button_big"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical" >
+
+                            <ImageView
+                                android:id="@+id/iv_button_big"
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:layout_gravity="right"
+                                android:layout_marginRight="35dp"
+                                android:src="@drawable/selector_button_big" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_button_small"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical" >
+
+                            <ImageView
+                                android:id="@+id/iv_button_small"
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:layout_gravity="left"
+                                android:layout_marginLeft="40dp"
+                                android:src="@drawable/selector_button_small" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_start_right_now"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginTop="30dp"
+                        android:orientation="horizontal" >
+
+                        <RelativeLayout
+                            android:id="@+id/ll_bet_count"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" >
+
+                            <TextView
+                                android:id="@+id/tv_bet_explain"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginRight="40dp"
+                                android:text="参与投注："
+                                android:textColor="@color/color_white" />
+
+                            <!-- <EditText -->
+                            <!-- android:id="@+id/ed_bet_money" -->
+                            <!-- android:layout_width="70dp" -->
+                            <!-- android:layout_height="wrap_content" -->
+                            <!-- android:layout_alignParentRight="true" -->
+                            <!-- android:layout_below="@id/tv_bet_explain" -->
+                            <!-- android:layout_marginRight="40dp" -->
+                            <!-- android:background="@drawable/shape_edittext_transparent" -->
+                            <!-- android:digits="0123456789" -->
+                            <!-- android:gravity="center" -->
+                            <!-- android:inputType="number" -->
+                            <!-- android:text="10" -->
+                            <!-- android:textColor="@android:color/white" -->
+                            <!-- android:textSize="16sp" -->
+                            <!-- android:visibility="gone" /> -->
+
+                            <TextView
+                                android:id="@+id/tv_bet_money"
+                                android:layout_width="70dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_below="@id/tv_bet_explain"
+                                android:layout_marginRight="40dp"
+                                android:clickable="false"
+                                android:gravity="center"
+                                android:text="10"
+                                android:textColor="@color/color_white"
+                                android:textColorHint="@color/color_white"
+                                android:textSize="16sp" />
+                        </RelativeLayout>
+
+                        <ImageView
+                            android:id="@+id/iv_start"
+                            android:layout_width="150dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/selector_button_start" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_betAmount"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginRight="35dp"
+                        android:layout_marginTop="20dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true" >
+
+                        <ImageView
+                            android:id="@+id/iv_fifty"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:scaleType="center"
+                            android:src="@drawable/selector_bg_game_fifty" />
+
+                        <ImageView
+                            android:id="@+id/iv_two_hundred"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:src="@drawable/selector_bg_game_two_hundred" />
+
+                        <ImageView
+                            android:id="@+id/iv_five_hundred"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="20dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/selector_bg_game_five_hundred" />
+
+                        <EditText
+                            android:id="@+id/et_bet_count"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape_edittext_transparent"
+                            android:digits="0123456789"
+                            android:gravity="center"
+                            android:hint=""
+                            android:inputType="number"
+                            android:textColor="@color/color_white"
+                            android:textColorHint="@color/color_white"
+                            android:textSize="13sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_rule"
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="right"
+                        android:layout_marginBottom="5dp"
+                        android:gravity="center"
+                        android:text="规则？"
+                        android:textColor="@color/color_white"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <!-- 这个布局就是黑色背景 带透明度 用于放置引导图片 -->
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/bitmap_luckypan_bg" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_guide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#B0000000"
+        android:visibility="gone" >
+    </RelativeLayout>
+
+</RelativeLayout>

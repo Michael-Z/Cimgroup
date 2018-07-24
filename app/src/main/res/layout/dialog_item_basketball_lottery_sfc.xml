@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <View
+        style="@style/style_gray_horizontal_line"
+        android:background="@color/hall_grey_word" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="135dip"
+        android:orientation="horizontal" >
+
+        <View
+            style="@style/style_gray_vertical_line"
+            android:background="@color/hall_grey_word" />
+
+        <TextView
+            android:layout_width="20dip"
+            android:layout_height="fill_parent"
+            android:background="@color/color_red"
+            android:gravity="center"
+            android:text="@string/basketballlottery_customerwins"
+            android:textColor="@color/color_white" />
+
+        <View
+            style="@style/style_gray_vertical_line"
+            android:background="@color/hall_grey_word" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:orientation="horizontal" >
+
+                <View
+                    style="@style/style_gray_vertical_line"
+                    android:background="@color/hall_grey_word" />
+
+                <Button
+                    android:id="@+id/btnView_basketballlottery_1"
+                    style="@style/football_lottery_dialog_qcbj" />
+
+                <View
+                    style="@style/style_gray_vertical_line"
+                    android:background="@color/hall_grey_word" />
+
+                <Button
+                    android:id="@+id/btnView_basketballlottery_2"
+                    style="@style/football_lottery_dialog_qcbj" />
+
+                <View
+                    style="@style/style_gray_vertical_line"
+                    android:background="@color/hall_grey_word" />
+            </LinearLayout>
+
+            <View
+                style="@style/style_gray_horizontal_line"
+                android:background="@color/hall_grey_word" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:orientation="horizontal" >
+
+                <View
+                    style="@style/style_gray_vertical_line"
+                    android:background="@color/hall_grey_word" />
+
+                <Button
+                    android:id="@+id/btnView_basketballlottery_3"
+                    style="@style/football_lottery_dialog_qcbj" />
+
+                <View
+                    style="@style/style_gray_vertical_line"
+                    android:background="@color/hall_grey_word" />
+
+                <Button
+                    android:id="@+id/btnView_basketballlottery_4"
+                    style="@style/football_lottery_dialog_qcbj" />
+
+                <View
+                    style="@style/style_gray_vertical_line"
+                    android:background="@color/hall_grey_word" />
+            </LinearLayout>
+
+            <View
+                style="@style/style_gray_horizontal_line"
+                android:background="@color/hall_grey_word" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:orientation="horizontal" >
+
+                <View
+                    style="@style/style_gray_vertical_line"
+                    android:background="@color/hall_grey_word" />
+
+                <Button
+                    android:id="@+id/btnView_basketballlottery_5"
+                    style="@style/football_lottery_dialog_qcbj" />
+
+                <View
+                    style="@style/style_gray_vertical_line"
+                    android:background="@color/hall_grey_word" />
+
+                <Button
+                    android:id="@+id/btnView_basketballlottery_6"
+                    style="@style/football_lottery_dialog_qcbj" />
+
+                <View
+                    style="@style/style_gray_vertical_line"
+                    android:background="@color/hall_grey_word" />
+            </LinearLayout>
+
+            <View
+                style="@style/style_gray_horizontal_line"
+                android:background="@color/hall_grey_word" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        style="@style/style_gray_horizontal_line"
+        android:background="@color/hall_grey_word" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="135dip"
+        android:orientation="horizontal" >
+
+        <View
+            style="@style/style_gray_vertical_line"
+            android:background="@color/hall_grey_word" />
+
+        <TextView
+            android:layout_width="20dip"
+            android:layout_height="fill_parent"
+            android:background="#FF5B00"
+            android:gravity="center"
+            android:text="@string/basketballlottery_primarywins"
+            android:textColor="@color/color_white" />
+
+        <View
+            style="@style/style_gray_vertical_line"
+            android:background="@color/hall_grey_word" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:orientation="horizontal" >
+
+                <View
+                    style="@style/style_gray_vertical_line"
+                    android:background="@color/hall_grey_word" />
+
+                <Button
+                    android:id="@+id/btnView_basketballlottery_7"
+                    style="@style/football_lottery_dialog_qcbj" />
+
+                <View
+                    style="@style/style_gray_vertical_line"
+                    android:background="@color/hall_grey_word" />
+
+                <Button
+                    android:id="@+id/btnView_basketballlottery_8"
+                    style="@style/football_lottery_dialog_qcbj" />
+
+                <View
+                    style="@style/style_gray_vertical_line"
+                    android:background="@color/hall_grey_word" />
+            </LinearLayout>
+
+            <View
+                style="@style/style_gray_horizontal_line"
+                android:background="@color/hall_grey_word" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:orientation="horizontal" >
+
+                <View
+                    style="@style/style_gray_vertical_line"
+                    android:background="@color/hall_grey_word" />
+
+                <Button
+                    android:id="@+id/btnView_basketballlottery_9"
+                    style="@style/football_lottery_dialog_qcbj" />
+
+                <View
+                    style="@style/style_gray_vertical_line"
+                    android:background="@color/hall_grey_word" />
+
+                <Button
+                    android:id="@+id/btnView_basketballlottery_10"
+                    style="@style/football_lottery_dialog_qcbj" />
+
+                <View
+                    style="@style/style_gray_vertical_line"
+                    android:background="@color/hall_grey_word" />
+            </LinearLayout>
+
+            <View
+                style="@style/style_gray_horizontal_line"
+                android:background="@color/hall_grey_word" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:orientation="horizontal" >
+
+                <View
+                    style="@style/style_gray_vertical_line"
+                    android:background="@color/hall_grey_word" />
+
+                <Button
+                    android:id="@+id/btnView_basketballlottery_11"
+                    style="@style/football_lottery_dialog_qcbj" />
+
+                <View
+                    style="@style/style_gray_vertical_line"
+                    android:background="@color/hall_grey_word" />
+
+                <Button
+                    android:id="@+id/btnView_basketballlottery_12"
+                    style="@style/football_lottery_dialog_qcbj" />
+
+                <View
+                    style="@style/style_gray_vertical_line"
+                    android:background="@color/hall_grey_word" />
+            </LinearLayout>
+
+            <View
+                style="@style/style_gray_horizontal_line"
+                android:background="@color/hall_grey_word" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        style="@style/style_gray_horizontal_line"
+        android:background="@color/hall_grey_word" />
+
+</LinearLayout>

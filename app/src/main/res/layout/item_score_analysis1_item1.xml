@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal" >
+
+        <View style="@style/style_gray_vertical_line" />
+
+        <TextView
+            android:id="@+id/textView_score_analysis1_item1_matchname"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="日联杯"
+            android:textColor="@color/color_gray_secondary"
+            android:textSize="12sp" />
+
+        <View style="@style/style_gray_vertical_line" />
+
+        <TextView
+            android:id="@+id/textView_score_analysis1_item1_time"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="2014-10-18"
+            android:textColor="@color/color_gray_secondary"
+            android:textSize="12sp" />
+
+        <View style="@style/style_gray_vertical_line" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textView_score_analysis1_item1_zhu"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="对阵对阵"
+                android:textColor="@color/color_gray_secondary"
+                android:textSize="12sp" />
+
+            <View style="@style/style_gray_vertical_line" />
+
+            <TextView
+                android:id="@+id/textView_score_analysis1_item1_bifen"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0:0"
+                android:textColor="@color/color_gray_secondary"
+                android:textSize="12sp" />
+
+            <View style="@style/style_gray_vertical_line" />
+
+            <TextView
+                android:id="@+id/textView_score_analysis1_item1_ke"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="对阵对阵"
+                android:textColor="@color/color_gray_secondary"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <View style="@style/style_gray_vertical_line" />
+
+        <TextView
+            android:id="@+id/textView_score_analysis1_item1_result"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="胜"
+            android:textColor="@color/color_gray_secondary"
+            android:textSize="12sp" />
+
+        <View style="@style/style_gray_vertical_line" />
+    </LinearLayout>
+
+    <View style="@style/style_gray_horizontal_line" />
+
+</LinearLayout>

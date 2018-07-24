@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppStartLoad" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@drawable/bg_splash</item>
+        <!-- <item name="android:windowAnimationStyle">@style/popsplash_anim_style</item> -->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    
+    <style name="AppStartLoad2016" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@drawable/bg_splash_2016</item>
+        <!-- <item name="android:windowAnimationStyle">@style/popsplash_anim_style</item> -->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

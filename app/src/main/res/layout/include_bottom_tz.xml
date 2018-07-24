@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_tab_bg" >
+
+    <TextView
+        android:id="@+id/textView_lottery_jx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:drawableTop="@drawable/lottery_jx"
+        android:text="机选"
+        android:textSize="12sp"
+        android:textColor="@color/hall_yellow"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:scaleType="center" />
+
+    <TextView
+        android:id="@+id/textView_touzhu_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_margin="5dip"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:text="@string/lottery_please_select"
+        android:textColor="@color/color_white"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/rl_touzhu_config"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="10dip"
+        android:text="@string/lottery_finish"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:textColor="@color/hall_yellow"
+        android:background="@drawable/selector_bg_bottom_tz"
+        android:textSize="14sp" />
+</RelativeLayout>

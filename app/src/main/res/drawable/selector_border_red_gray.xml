@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 被选择后显示红色边框，未选择时显示灰色边框 -->
+    <item android:state_selected="true"><shape>
+            <solid android:color="@android:color/white" />
+
+            <stroke android:width="0.6dp" android:color="@color/color_red" />
+
+        </shape></item>
+    <item android:state_selected="false"><shape>
+            <solid android:color="@android:color/white" />
+
+            <stroke android:width="0.6dp" android:color="@color/hall_grey_word" />
+
+        </shape></item>
+
+</selector>

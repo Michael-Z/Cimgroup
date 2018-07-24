@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_white" >
+    
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:padding="0.5dp"
+        android:background="@color/border_color"
+        android:orientation="horizontal" >
+        
+        <Button
+            android:id="@+id/football_lottery_dialog_bf_0"
+            style="@style/football_lottery_dialog_qcbj" />
+        
+
+        <Button
+            android:layout_marginLeft="0.5dp"
+            android:id="@+id/football_lottery_dialog_bf_1"
+            style="@style/football_lottery_dialog_qcbj" />
+        
+
+        <Button
+            android:layout_marginLeft="0.5dp"
+            android:id="@+id/football_lottery_dialog_bf_2"
+            style="@style/football_lottery_dialog_qcbj" />
+        
+
+        <Button
+            android:layout_marginLeft="0.5dp"
+            android:id="@+id/football_lottery_dialog_bf_3"
+            style="@style/football_lottery_dialog_qcbj" />
+        
+
+        <Button
+            android:layout_marginLeft="0.5dp"
+            android:id="@+id/football_lottery_dialog_bf_4"
+            style="@style/football_lottery_dialog_qcbj" />
+        
+    </LinearLayout>
+    
+   
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:paddingLeft="0.5dp"
+        android:paddingRight="0.5dp"
+        android:paddingBottom="0.5dp"
+        android:background="@color/border_color"
+        android:orientation="horizontal" >
+        
+
+        <Button
+            android:id="@+id/football_lottery_dialog_bf_5"
+            style="@style/football_lottery_dialog_qcbj" />
+        
+
+        <Button
+            android:layout_marginLeft="0.5dp"
+            android:id="@+id/football_lottery_dialog_bf_6"
+            style="@style/football_lottery_dialog_qcbj" />
+        
+
+        <Button
+            android:layout_marginLeft="0.5dp"
+            android:id="@+id/football_lottery_dialog_bf_7"
+            style="@style/football_lottery_dialog_qcbj" />
+        
+
+        <Button
+            android:layout_marginLeft="0.5dp"
+            android:id="@+id/football_lottery_dialog_bf_8"
+            style="@style/football_lottery_dialog_qcbj" />
+        
+
+        <Button
+            android:layout_marginLeft="0.5dp"
+            android:id="@+id/football_lottery_dialog_bf_9"
+            style="@style/football_lottery_dialog_qcbj" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:orientation="horizontal"
+        android:background="@color/border_color"
+        android:paddingRight="0.5dp"
+        android:paddingLeft="0.5dp"
+        android:paddingBottom="0.5dp" >
+        
+
+        <Button
+            android:id="@+id/football_lottery_dialog_bf_10"
+            style="@style/football_lottery_dialog_qcbj" />
+        
+
+        <Button
+            android:layout_marginLeft="0.5dp"
+            android:id="@+id/football_lottery_dialog_bf_11"
+            style="@style/football_lottery_dialog_qcbj" />
+        
+
+        <Button
+            android:layout_marginLeft="0.5dp"
+            android:id="@+id/football_lottery_dialog_bf_12"
+            style="@style/football_lottery_dialog_qcbj" />
+        
+
+        <Button
+            android:layout_marginLeft="0.5dp"
+            style="@style/football_lottery_dialog_qcbj" />
+        
+        
+        <Button
+            android:layout_marginLeft="0.5dp"
+            style="@style/football_lottery_dialog_qcbj" />
+        
+    </LinearLayout>
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:padding="0.5dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/border_color"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/football_lottery_dialog_bf_13"
+            style="@style/football_lottery_dialog_qcbj" />
+        
+
+        <Button
+            android:layout_marginLeft="0.5dp"
+            android:id="@+id/football_lottery_dialog_bf_14"
+            style="@style/football_lottery_dialog_qcbj" />
+        
+
+        <Button
+            android:layout_marginLeft="0.5dp"
+            android:id="@+id/football_lottery_dialog_bf_15"
+            style="@style/football_lottery_dialog_qcbj" />
+        
+
+        <Button
+            android:layout_marginLeft="0.5dp"
+            android:id="@+id/football_lottery_dialog_bf_16"
+            style="@style/football_lottery_dialog_qcbj" />
+        
+
+        <Button
+            android:layout_marginLeft="0.5dp"
+            android:id="@+id/football_lottery_dialog_bf_17"
+            style="@style/football_lottery_dialog_qcbj" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:padding="0.5dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/border_color"
+        android:orientation="horizontal" >
+        
+
+        <Button
+            android:id="@+id/football_lottery_dialog_bf_18"
+            style="@style/football_lottery_dialog_qcbj" />
+        
+
+        <Button
+            android:layout_marginLeft="0.5dp"
+            android:id="@+id/football_lottery_dialog_bf_19"
+            style="@style/football_lottery_dialog_qcbj" />
+        
+
+        <Button
+            android:layout_marginLeft="0.5dp"
+            android:id="@+id/football_lottery_dialog_bf_20"
+            style="@style/football_lottery_dialog_qcbj" />
+        
+
+        <Button
+            android:layout_marginLeft="0.5dp"
+            android:id="@+id/football_lottery_dialog_bf_21"
+            style="@style/football_lottery_dialog_qcbj" />
+        
+
+        <Button
+            android:layout_marginLeft="0.5dp"
+            android:id="@+id/football_lottery_dialog_bf_22"
+            style="@style/football_lottery_dialog_qcbj" />
+        
+    </LinearLayout>
+    
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:paddingLeft="0.5dp"
+        android:paddingRight="0.5dp"
+        android:paddingBottom="0.5dp"
+        android:background="@color/border_color"
+        android:orientation="horizontal" >
+
+        
+        <Button
+            android:id="@+id/football_lottery_dialog_bf_23"
+            style="@style/football_lottery_dialog_qcbj" />
+
+        <Button
+            android:layout_marginLeft="0.5dp"
+            android:id="@+id/football_lottery_dialog_bf_24"
+            style="@style/football_lottery_dialog_qcbj" />
+        
+
+        <Button
+            android:layout_marginLeft="0.5dp"
+            android:id="@+id/football_lottery_dialog_bf_25"
+            style="@style/football_lottery_dialog_qcbj" />
+        
+
+        <Button
+            android:layout_marginLeft="0.5dp"
+            android:id="@+id/football_lottery_dialog_bf_26"
+            style="@style/football_lottery_dialog_qcbj" />
+        
+
+        <Button
+            android:layout_marginLeft="0.5dp"
+            android:id="@+id/football_lottery_dialog_bf_27"
+            style="@style/football_lottery_dialog_qcbj" />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:paddingLeft="0.5dp"
+        android:paddingRight="0.5dp"
+        android:paddingBottom="0.5dp"
+        android:background="@color/border_color"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/football_lottery_dialog_bf_28"
+            style="@style/football_lottery_dialog_qcbj" />
+        
+
+        <Button
+            android:layout_marginLeft="0.5dp"
+            android:id="@+id/football_lottery_dialog_bf_29"
+            style="@style/football_lottery_dialog_qcbj" />
+        
+
+        <Button
+            android:layout_marginLeft="0.5dp"
+            android:id="@+id/football_lottery_dialog_bf_30"
+            style="@style/football_lottery_dialog_qcbj" />
+        
+
+        <Button
+            android:layout_marginLeft="0.5dp"
+            android:id="@+id/football_lottery_dialog_bf_31"
+            style="@style/football_lottery_dialog_qcbj" />
+        
+
+        <Button
+            android:layout_marginLeft="0.5dp"
+            style="@style/football_lottery_dialog_qcbj"/>
+        
+
+    </LinearLayout>
+</LinearLayout>

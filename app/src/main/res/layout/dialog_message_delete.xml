@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/bg_message_inside_item">
+
+    <TextView
+        android:id="@+id/delete_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@color/color_gray_secondary"
+        android:textSize="19dp"
+        android:padding="15dp"
+        android:text="删除"/>
+
+</RelativeLayout>

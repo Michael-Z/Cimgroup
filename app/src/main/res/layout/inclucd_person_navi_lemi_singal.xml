@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/id_single_lemi_tz"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/id_single_navi_my_tz"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/id_single_tz_title"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="我的投注"
+                android:textColor="@color/color_gray_secondary"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/id_my_tz_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/icon_hall_pull_black" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="26dp"
+            android:layout_gravity="center_vertical"
+            android:background="@color/layout_bg_color" />
+
+        <TextView
+            android:id="@+id/id_single_lemi_details"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@color/color_white"
+            android:gravity="center"
+            android:text="乐米明细" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="26dp"
+            android:layout_gravity="center_vertical"
+            android:background="@color/layout_bg_color" />
+
+        <TextView
+            android:id="@+id/id_single_exchange_record"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@color/color_white"
+            android:gravity="center"
+            android:text="兑换记录" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginBottom="1dp"
+        android:background="@color/layout_bg_color" />
+
+</LinearLayout>

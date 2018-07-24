@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_white"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_marginBottom="41dip"
+        android:scrollbars="none"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtView_football_lottery_dialog_title"
+                android:layout_width="fill_parent"
+                android:layout_height="40dip"
+                android:gravity="center"
+                android:textColor="@color/color_gray_secondary"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:id="@+id/layoutView_football_lottery_content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dip" >
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="41dip"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="#D3D3D3" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnView_football_lottery_dialog_canl"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/selector_btn_footballlottery_dialog"
+                android:text="@string/btn_canl"
+                android:textColor="@color/selector_btn_footballlottery_dialog_canl" />
+
+            <View
+                android:layout_width="1dip"
+                android:layout_height="fill_parent"
+                android:background="#D3D3D3" />
+
+            <Button
+                android:id="@+id/btnView_football_lottery_dialog_ok"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/selector_btn_footballlottery_dialog"
+                android:text="@string/btn_ok"
+                android:textColor="@color/selector_btn_footballlottery_dialog_ok" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

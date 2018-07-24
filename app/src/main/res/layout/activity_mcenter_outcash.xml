@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hall_background"
+    android:orientation="vertical" >
+
+    <include layout="@layout/include_title0" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/selector_bg_feature_item"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/lotteryhall_text_gray"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:text="银行卡号：" />
+
+            <TextView
+                android:id="@+id/textView_outcash_banknum"
+                style="@style/lotteryhall_text_gray"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|left"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/id_update_card"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="修改"
+                android:textColor="@color/color_red"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <View
+            style="@style/style_gray_horizontal_line"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/lotteryhall_text_gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="@string/outcash_bankname" />
+
+            <TextView
+                android:id="@+id/textView_outcash_bankname"
+                style="@style/lotteryhall_text_gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:singleLine="true"
+                android:textColor="@color/color_red" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/lotteryhall_text_gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="@string/outcash_allmoney" />
+
+            <TextView
+                android:id="@+id/textView_outcash_allmoney"
+                style="@style/lotteryhall_text_gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:singleLine="true"
+                android:textColor="@color/color_red" />
+
+            <TextView
+                style="@style/lotteryhall_text_gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/price_unit" />
+        </LinearLayout>
+
+        <View
+            style="@style/style_gray_horizontal_line"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/lotteryhall_text_gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="@string/outcash_realname" />
+
+            <TextView
+                android:id="@+id/textView_outcash_realname"
+                style="@style/lotteryhall_text_gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <View
+            style="@style/style_gray_horizontal_line"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp" >
+
+            <TextView
+                android:id="@+id/textView_outcash_id"
+                style="@style/lotteryhall_text_gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:text="@string/outcash_money" />
+
+            <EditText
+                android:id="@+id/editText_outcash_money"
+                style="@style/lotteryhall_text_gray"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/textView_outcash_id"
+                android:background="@color/color_white"
+                android:digits="1234567890"
+                android:hint="请输入提现金额"
+                android:inputType="number"
+                android:maxLength="6"
+                android:singleLine="true" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView_outcash_submit"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/selector_bg_common"
+        android:gravity="center"
+        android:text="@string/getbackpwd_submit"
+        android:textColor="@color/color_white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView_outcash_explain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/color_gray_indicator" />
+
+    <TextView
+        android:id="@+id/textView_outcash_explain1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/color_gray_indicator" />
+
+</LinearLayout>

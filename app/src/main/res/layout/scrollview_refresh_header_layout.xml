@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ListView的头部 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_main_scrollview_refresh_headre_Layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/background_light" >
+
+    <!-- 内容 -->
+
+    <RelativeLayout
+        android:id="@+id/head_contentLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:paddingLeft="30dp" >
+
+        <!-- 箭头图像、进度条 -->
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/id_info_layout" >
+
+            <!-- 箭头 -->
+
+            <ImageView
+                android:id="@+id/id_header_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/xlistview_arrow" />
+            <!-- 进度条 -->
+
+            <ProgressBar
+                android:id="@+id/id_header_progressbar"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerInParent="true"
+                android:indeterminateBehavior="repeat"
+                android:indeterminateDrawable="@drawable/progressbar_bg"
+                android:indeterminateOnly="true"
+                android:visibility="gone" />
+        </RelativeLayout>
+        <!-- 提示、最近更新 -->
+
+        <LinearLayout
+            android:id="@id/id_info_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <!-- 提示 -->
+
+            <TextView
+                android:id="@+id/id_header_toast_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pulltorefresh"
+                android:textColor="@color/color_gray_secondary"
+                android:textSize="16sp" />
+            <!-- 最近更新 -->
+
+            <TextView
+                android:id="@+id/id_header_last_update_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/lastupdate"
+                android:textColor="@color/yellow"
+                android:textSize="12sp"
+                android:visibility="gone" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

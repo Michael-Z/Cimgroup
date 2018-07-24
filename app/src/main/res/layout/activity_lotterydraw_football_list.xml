@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layout_bg_color" >
+
+    <RelativeLayout
+        android:id="@+id/layoutView_lotterydraw_football_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/color_black" >
+
+        <TextView
+            android:id="@+id/layoutView_title_left1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:drawableLeft="@drawable/icon_back"
+            android:gravity="center_vertical"
+            android:scaleType="center"
+            android:text="@string/btn_back"
+            android:textColor="@color/color_white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView_lotterybid_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:drawablePadding="3dp"
+            android:drawableRight="@drawable/icon_tz_pull"
+            android:gravity="center_vertical|right"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/color_white" />
+
+        <RelativeLayout
+            android:id="@+id/id_title_right_layout"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true" >
+
+            <ImageView
+                android:id="@+id/imgView_footballbid_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/calendar"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView_lotterydraw_football_time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_gray_secondary"
+        android:layout_below="@id/layoutView_lotterydraw_football_title"
+        android:gravity="center" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textView_lotterydraw_football_time"
+        android:layout_marginBottom="40dp"
+        android:background="@color/color_gray_line" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_score_game"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="编号"
+                    android:textColor="@color/color_gray_secondary" />
+
+                <View style="@style/style_gray_vertical_line" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="主队"
+                    android:textColor="@color/color_gray_secondary" />
+
+                <View style="@style/style_gray_vertical_line" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="赛果"
+                    android:textColor="@color/color_gray_secondary" />
+
+                <View style="@style/style_gray_vertical_line" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="客队"
+                    android:textColor="@color/color_gray_secondary" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/color_gray_line" />
+
+            <LinearLayout
+                android:id="@+id/layout_lotterydraw_football_item"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/pop_common_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="45dp"
+        android:background="@color/gray_transparent"
+        android:orientation="vertical"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/id_jczq_betting_jump"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/selector_bg_common_red_unround"
+        android:gravity="center"
+        android:text="竞彩足球投注"
+        android:textColor="@color/color_white"
+        android:textSize="18sp" />
+
+</RelativeLayout>

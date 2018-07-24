@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layout_bg_color"
+    android:orientation="vertical" >
+
+    <include android:id="@+id/layout_buy_head"
+        layout="@layout/include_title0" />
+
+    <RelativeLayout
+        android:id="@+id/layout_shop_lemi_dui"
+        style="@style/lottery_hall_layout_linear2"
+        android:layout_height="wrap_content"
+        android:background="@color/color_white"
+        android:gravity="center_vertical" >
+
+        <ImageView android:id="@+id/image_shop_lemi_dui"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/icon_shop_lemi" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/center_buy_lemi"
+                android:textColor="@color/color_red"
+                android:textSize="16sp" />
+
+            <TextView
+                style="@style/lotteryhall_text_yellow"
+                android:text="乐米投注，精彩玩不停"
+                android:layout_marginTop="5dp" />
+            
+            <TextView
+                style="@style/lotteryhall_text_yellow"
+                android:text="带你变身大赢家"
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/layout_shop_lemi"
+        style="@style/lottery_hall_layout_linear2"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/color_white"
+        android:gravity="center_vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="right"
+            android:layout_marginLeft="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/center_convert_lemi"
+                android:textColor="@color/color_red"
+                android:textSize="16sp" />
+
+            <TextView
+                style="@style/lotteryhall_text_yellow"
+                android:text="乐米商城"
+                android:layout_marginTop="5dp" />
+            
+            <TextView
+                style="@style/lotteryhall_text_yellow"
+                android:text="丰富多彩 "
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+        
+        <ImageView android:id="@+id/image_shop_lemi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/icon_shop_dui_lemi" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_shop_red_packet"
+        style="@style/lottery_hall_layout_linear2"
+        android:layout_height="wrap_content"
+        android:background="@color/color_white"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical" >
+
+        <ImageView android:id="@+id/image_shop_red_packet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/icon_shop_red_packet" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/center_buy_red_packet"
+                android:textColor="@color/color_red"
+                android:textSize="16sp" />
+
+            <TextView
+                style="@style/lotteryhall_text_yellow"
+                android:layout_marginTop="5dp"
+                android:text="红包投注更优惠！" />
+
+            <TextView
+                style="@style/lotteryhall_text_yellow"
+                android:layout_marginTop="5dp"
+                android:text="全场通用红包9.7折起抢购！" />
+        </LinearLayout>
+
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/layout_shop_more"
+        style="@style/lottery_hall_layout_linear2"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/color_white"
+        android:gravity="center_vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="right"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="更多商品"
+                android:textColor="@color/color_red"
+                android:textSize="16sp" />
+
+            <TextView
+                style="@style/lotteryhall_text_yellow"
+                android:text="更多商品即将上线"
+                android:layout_marginTop="5dp" />
+            
+            <TextView
+                style="@style/lotteryhall_text_yellow"
+                android:text="敬请期待"
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+        
+        <ImageView android:id="@+id/image_shop_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/icon_shop_more" />
+    </RelativeLayout>
+    
+</LinearLayout>
